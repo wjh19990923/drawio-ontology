@@ -1,0 +1,44 @@
+{
+  "ontology_version": "1.0.0",
+  "catalog_name": "Draw.io 零部件视觉图鉴",
+  "source": {
+    "drawio_desktop": "30.0.4",
+    "drawio_skill": "2.1.0"
+  },
+  "counts": {
+    "official_shapes": 10446,
+    "shape_libraries": 135,
+    "external_svg_icons": 328,
+    "capability_scripts": 38,
+    "diagram_types": 11
+  },
+  "read_order": [
+    "AGENTS.md",
+    "agent-manifest.json",
+    "ontology/intent_routes.jsonl",
+    "ontology/diagram_types.jsonl",
+    "ontology/capabilities.jsonl"
+  ],
+  "large_indexes_read_only_on_demand": [
+    "ontology/shapes_search.jsonl",
+    "ontology/icons_search.jsonl"
+  ],
+  "canonical_query": "powershell -ExecutionPolicy Bypass -File ontology/query_ontology.ps1 <query> --kind auto --compact",
+  "core_workflow": [
+    "classify_intent",
+    "select_diagram_type",
+    "select_capability",
+    "resolve_shapes_or_icons",
+    "generate_drawio",
+    "validate",
+    "export_and_visual_check"
+  ],
+  "rules": [
+    "Do not recursively scan image folders; query the ontology.",
+    "Never guess mxgraph stencil names; use exact style from shape search.",
+    "Treat official shapes, external SVG icons, and capability scripts as different entity classes.",
+    "For graphs larger than about 15 nodes, prefer autolayout.py.",
+    "After generation run validate.py, export a PNG, and visually inspect it.",
+    "For portable AI icons use local SVG or aiicons.py --embed."
+  ]
+}

@@ -1,0 +1,7 @@
+* text=auto
+*.png binary
+*.jpg binary
+*.gif binary
+*.gz binary
+*.jsonl text eol=lf
+*.py text eol=lf

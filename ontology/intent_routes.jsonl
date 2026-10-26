@@ -1,0 +1,15 @@
+{"id":"intent:01","name":"create diagram from words","match_terms":["画图","architecture","flowchart","diagram"],"route":"Choose diagram type; use hand-written XML for custom shapes or autolayout.py for >15 nodes."}
+{"id":"intent:02","name":"find exact official shape","match_terms":["shape","icon","AWS","Azure","Cisco","Kubernetes","图标","元素"],"route":"Run ontology/query_ontology.py first, then shapesearch.py; never guess mxgraph style names."}
+{"id":"intent:03","name":"find AI brand icon","match_terms":["OpenAI","Claude","Gemini","LLM logo","AI图标"],"route":"Query icons_search.jsonl; prefer local SVG, or aiicons.py --embed for portable .drawio."}
+{"id":"intent:04","name":"code structure","match_terms":["Python imports","TypeScript modules","Go project","Rust crate","代码结构"],"route":"Use language importer -> graph JSON -> autolayout.py -> validate.py."}
+{"id":"intent:05","name":"declared infrastructure","match_terms":["Terraform","Kubernetes YAML","docker-compose","声明式架构"],"route":"Use tfimports.py, k8simports.py, or composeimports.py -> autolayout.py."}
+{"id":"intent:06","name":"live infrastructure","match_terms":["terraform state","docker inspect","kubectl get","实际部署"],"route":"Use tfstate.py, dockerimports.py, or k8simports.py with stdin."}
+{"id":"intent:07","name":"database schema","match_terms":["SQL DDL","ERD","数据库schema"],"route":"Use sqlerd.py -> autolayout.py."}
+{"id":"intent:08","name":"API surface","match_terms":["OpenAPI","Swagger","API diagram","接口图"],"route":"Use openapiimports.py -> autolayout.py."}
+{"id":"intent:09","name":"CI pipeline","match_terms":["GitHub Actions","GitLab CI","pipeline","流水线"],"route":"Use ciimports.py -> autolayout.py."}
+{"id":"intent:10","name":"sequence interactions","match_terms":["sequence","lifeline","时序图"],"route":"Use seqlayout.py; do not hand-place lifelines."}
+{"id":"intent:11","name":"C4 multi-level","match_terms":["C4","context container component"],"route":"Use c4.py; preserve drill-down links."}
+{"id":"intent:12","name":"review or validate","match_terms":["overlap","crossing","validate","检查图"],"route":"Run edgeports.py where needed, then validate.py; inspect exported PNG."}
+{"id":"intent:13","name":"publish or convert","match_terms":["HTML viewer","PPTX","Mermaid","animated SVG","导出"],"route":"Use drawiohtml.py, drawio2pptx.py, drawio2mermaid.py, or svgflow.py."}
+{"id":"intent:14","name":"localize or restyle","match_terms":["translate","中英文","dark theme","recolor","换风格"],"route":"Use relabel.py or restyle.py; retain layout and identifiers."}
+{"id":"intent:15","name":"compare diagrams","match_terms":["diff","drift","变化","对比"],"route":"Use drawiodiff.py; for PR workflows use prdiff.py."}

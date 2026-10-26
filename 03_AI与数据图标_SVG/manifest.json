@@ -1,0 +1,1970 @@
+[
+  {
+    "name": "ace",
+    "source": "lobe-icons",
+    "file": "ace.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/ace.svg"
+  },
+  {
+    "name": "adobe",
+    "source": "lobe-icons",
+    "file": "adobe.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/adobe-color.svg"
+  },
+  {
+    "name": "adobefirefly",
+    "source": "lobe-icons",
+    "file": "adobefirefly.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/adobefirefly-color.svg"
+  },
+  {
+    "name": "agentvoice",
+    "source": "lobe-icons",
+    "file": "agentvoice.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/agentvoice-color.svg"
+  },
+  {
+    "name": "agui",
+    "source": "lobe-icons",
+    "file": "agui.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/agui.svg"
+  },
+  {
+    "name": "ai2",
+    "source": "lobe-icons",
+    "file": "ai2.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/ai2-color.svg"
+  },
+  {
+    "name": "ai21",
+    "source": "lobe-icons",
+    "file": "ai21.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/ai21-brand-color.svg"
+  },
+  {
+    "name": "ai302",
+    "source": "lobe-icons",
+    "file": "ai302.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/ai302-color.svg"
+  },
+  {
+    "name": "ai360",
+    "source": "lobe-icons",
+    "file": "ai360.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/ai360-color.svg"
+  },
+  {
+    "name": "aihubmix",
+    "source": "lobe-icons",
+    "file": "aihubmix.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/aihubmix-color.svg"
+  },
+  {
+    "name": "aimass",
+    "source": "lobe-icons",
+    "file": "aimass.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/aimass-color.svg"
+  },
+  {
+    "name": "aionlabs",
+    "source": "lobe-icons",
+    "file": "aionlabs.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/aionlabs-color.svg"
+  },
+  {
+    "name": "airjelly",
+    "source": "lobe-icons",
+    "file": "airjelly.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/airjelly-color.svg"
+  },
+  {
+    "name": "aistudio",
+    "source": "lobe-icons",
+    "file": "aistudio.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/aistudio.svg"
+  },
+  {
+    "name": "akashchat",
+    "source": "lobe-icons",
+    "file": "akashchat.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/akashchat-color.svg"
+  },
+  {
+    "name": "alephalpha",
+    "source": "lobe-icons",
+    "file": "alephalpha.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/alephalpha.svg"
+  },
+  {
+    "name": "alibaba",
+    "source": "lobe-icons",
+    "file": "alibaba.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/alibaba-color.svg"
+  },
+  {
+    "name": "alibabacloud",
+    "source": "lobe-icons",
+    "file": "alibabacloud.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/alibabacloud-color.svg"
+  },
+  {
+    "name": "amp",
+    "source": "lobe-icons",
+    "file": "amp.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/amp-color.svg"
+  },
+  {
+    "name": "antgroup",
+    "source": "lobe-icons",
+    "file": "antgroup.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/antgroup-color.svg"
+  },
+  {
+    "name": "anthropic",
+    "source": "lobe-icons",
+    "file": "anthropic.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/anthropic.svg"
+  },
+  {
+    "name": "antigravity",
+    "source": "lobe-icons",
+    "file": "antigravity.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/antigravity-color.svg"
+  },
+  {
+    "name": "anyscale",
+    "source": "lobe-icons",
+    "file": "anyscale.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/anyscale-color.svg"
+  },
+  {
+    "name": "apertis",
+    "source": "lobe-icons",
+    "file": "apertis.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/apertis-color.svg"
+  },
+  {
+    "name": "apple",
+    "source": "lobe-icons",
+    "file": "apple.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/apple.svg"
+  },
+  {
+    "name": "arcee",
+    "source": "lobe-icons",
+    "file": "arcee.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/arcee-color.svg"
+  },
+  {
+    "name": "askverdict",
+    "source": "lobe-icons",
+    "file": "askverdict.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/askverdict-color.svg"
+  },
+  {
+    "name": "assemblyai",
+    "source": "lobe-icons",
+    "file": "assemblyai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/assemblyai-color.svg"
+  },
+  {
+    "name": "atlascloud",
+    "source": "lobe-icons",
+    "file": "atlascloud.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/atlascloud.svg"
+  },
+  {
+    "name": "automatic",
+    "source": "lobe-icons",
+    "file": "automatic.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/automatic-color.svg"
+  },
+  {
+    "name": "aws",
+    "source": "lobe-icons",
+    "file": "aws.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/aws-color.svg"
+  },
+  {
+    "name": "aya",
+    "source": "lobe-icons",
+    "file": "aya.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/aya-color.svg"
+  },
+  {
+    "name": "azure",
+    "source": "lobe-icons",
+    "file": "azure.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/azure-color.svg"
+  },
+  {
+    "name": "azureai",
+    "source": "lobe-icons",
+    "file": "azureai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/azureai-color.svg"
+  },
+  {
+    "name": "baai",
+    "source": "lobe-icons",
+    "file": "baai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/baai.svg"
+  },
+  {
+    "name": "baichuan",
+    "source": "lobe-icons",
+    "file": "baichuan.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/baichuan-color.svg"
+  },
+  {
+    "name": "baidu",
+    "source": "lobe-icons",
+    "file": "baidu.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/baidu-color.svg"
+  },
+  {
+    "name": "baiducloud",
+    "source": "lobe-icons",
+    "file": "baiducloud.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/baiducloud-color.svg"
+  },
+  {
+    "name": "bailian",
+    "source": "lobe-icons",
+    "file": "bailian.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/bailian-color.svg"
+  },
+  {
+    "name": "baseten",
+    "source": "lobe-icons",
+    "file": "baseten.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/baseten.svg"
+  },
+  {
+    "name": "bedrock",
+    "source": "lobe-icons",
+    "file": "bedrock.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/bedrock-color.svg"
+  },
+  {
+    "name": "bfl",
+    "source": "lobe-icons",
+    "file": "bfl.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/bfl.svg"
+  },
+  {
+    "name": "bilibili",
+    "source": "lobe-icons",
+    "file": "bilibili.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/bilibili-color.svg"
+  },
+  {
+    "name": "bilibiliindex",
+    "source": "lobe-icons",
+    "file": "bilibiliindex.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/bilibiliindex.svg"
+  },
+  {
+    "name": "bing",
+    "source": "lobe-icons",
+    "file": "bing.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/bing-color.svg"
+  },
+  {
+    "name": "briaai",
+    "source": "lobe-icons",
+    "file": "briaai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/briaai-color.svg"
+  },
+  {
+    "name": "burncloud",
+    "source": "lobe-icons",
+    "file": "burncloud.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/burncloud-color.svg"
+  },
+  {
+    "name": "bytedance",
+    "source": "lobe-icons",
+    "file": "bytedance.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/bytedance-color.svg"
+  },
+  {
+    "name": "capcut",
+    "source": "lobe-icons",
+    "file": "capcut.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/capcut.svg"
+  },
+  {
+    "name": "cassandra",
+    "source": "simple-icons",
+    "file": "cassandra.svg",
+    "url": "https://cdn.simpleicons.org/apachecassandra"
+  },
+  {
+    "name": "centml",
+    "source": "lobe-icons",
+    "file": "centml.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/centml-color.svg"
+  },
+  {
+    "name": "cerebras",
+    "source": "lobe-icons",
+    "file": "cerebras.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/cerebras-color.svg"
+  },
+  {
+    "name": "chatglm",
+    "source": "lobe-icons",
+    "file": "chatglm.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/chatglm-color.svg"
+  },
+  {
+    "name": "cherrystudio",
+    "source": "lobe-icons",
+    "file": "cherrystudio.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/cherrystudio-color.svg"
+  },
+  {
+    "name": "civitai",
+    "source": "lobe-icons",
+    "file": "civitai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/civitai-color.svg"
+  },
+  {
+    "name": "civitai-text",
+    "source": "lobe-icons",
+    "file": "civitai-text.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/civitai-text-color.svg"
+  },
+  {
+    "name": "claude",
+    "source": "lobe-icons",
+    "file": "claude.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/claude-color.svg"
+  },
+  {
+    "name": "claudecode",
+    "source": "lobe-icons",
+    "file": "claudecode.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/claudecode-color.svg"
+  },
+  {
+    "name": "clickhouse",
+    "source": "simple-icons",
+    "file": "clickhouse.svg",
+    "url": "https://cdn.simpleicons.org/clickhouse"
+  },
+  {
+    "name": "cline",
+    "source": "lobe-icons",
+    "file": "cline.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/cline.svg"
+  },
+  {
+    "name": "clipdrop",
+    "source": "lobe-icons",
+    "file": "clipdrop.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/clipdrop.svg"
+  },
+  {
+    "name": "cloudflare",
+    "source": "lobe-icons",
+    "file": "cloudflare.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/cloudflare-color.svg"
+  },
+  {
+    "name": "codebuddy",
+    "source": "lobe-icons",
+    "file": "codebuddy.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/codebuddy-color.svg"
+  },
+  {
+    "name": "codeflicker",
+    "source": "lobe-icons",
+    "file": "codeflicker.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/codeflicker-color.svg"
+  },
+  {
+    "name": "codegeex",
+    "source": "lobe-icons",
+    "file": "codegeex.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/codegeex-color.svg"
+  },
+  {
+    "name": "codex",
+    "source": "lobe-icons",
+    "file": "codex.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/codex-color.svg"
+  },
+  {
+    "name": "cogvideo",
+    "source": "lobe-icons",
+    "file": "cogvideo.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/cogvideo-color.svg"
+  },
+  {
+    "name": "cogview",
+    "source": "lobe-icons",
+    "file": "cogview.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/cogview-color.svg"
+  },
+  {
+    "name": "cohere",
+    "source": "lobe-icons",
+    "file": "cohere.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/cohere-color.svg"
+  },
+  {
+    "name": "colab",
+    "source": "lobe-icons",
+    "file": "colab.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/colab-color.svg"
+  },
+  {
+    "name": "cometapi",
+    "source": "lobe-icons",
+    "file": "cometapi.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/cometapi-color.svg"
+  },
+  {
+    "name": "comfyui",
+    "source": "lobe-icons",
+    "file": "comfyui.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/comfyui-color.svg"
+  },
+  {
+    "name": "commanda",
+    "source": "lobe-icons",
+    "file": "commanda.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/commanda-color.svg"
+  },
+  {
+    "name": "copilot",
+    "source": "lobe-icons",
+    "file": "copilot.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/copilot-color.svg"
+  },
+  {
+    "name": "copilotkit",
+    "source": "lobe-icons",
+    "file": "copilotkit.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/copilotkit-color.svg"
+  },
+  {
+    "name": "coqui",
+    "source": "lobe-icons",
+    "file": "coqui.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/coqui-color.svg"
+  },
+  {
+    "name": "couchbase",
+    "source": "simple-icons",
+    "file": "couchbase.svg",
+    "url": "https://cdn.simpleicons.org/couchbase"
+  },
+  {
+    "name": "coze",
+    "source": "lobe-icons",
+    "file": "coze.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/coze.svg"
+  },
+  {
+    "name": "crewai",
+    "source": "lobe-icons",
+    "file": "crewai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/crewai-color.svg"
+  },
+  {
+    "name": "crusoe",
+    "source": "lobe-icons",
+    "file": "crusoe.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/crusoe-color.svg"
+  },
+  {
+    "name": "cursor",
+    "source": "lobe-icons",
+    "file": "cursor.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/cursor.svg"
+  },
+  {
+    "name": "cybercut",
+    "source": "lobe-icons",
+    "file": "cybercut.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/cybercut.svg"
+  },
+  {
+    "name": "dalle",
+    "source": "lobe-icons",
+    "file": "dalle.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/dalle-color.svg"
+  },
+  {
+    "name": "databricks",
+    "source": "simple-icons",
+    "file": "databricks.svg",
+    "url": "https://cdn.simpleicons.org/databricks"
+  },
+  {
+    "name": "dbrx",
+    "source": "lobe-icons",
+    "file": "dbrx.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/dbrx-color.svg"
+  },
+  {
+    "name": "deepai",
+    "source": "lobe-icons",
+    "file": "deepai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/deepai.svg"
+  },
+  {
+    "name": "deepcogito",
+    "source": "lobe-icons",
+    "file": "deepcogito.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/deepcogito-color.svg"
+  },
+  {
+    "name": "deepinfra",
+    "source": "lobe-icons",
+    "file": "deepinfra.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/deepinfra-color.svg"
+  },
+  {
+    "name": "deepl",
+    "source": "lobe-icons",
+    "file": "deepl.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/deepl-color.svg"
+  },
+  {
+    "name": "deepmind",
+    "source": "lobe-icons",
+    "file": "deepmind.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/deepmind-color.svg"
+  },
+  {
+    "name": "deepseek",
+    "source": "lobe-icons",
+    "file": "deepseek.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/deepseek-color.svg"
+  },
+  {
+    "name": "devin",
+    "source": "lobe-icons",
+    "file": "devin.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/devin-color.svg"
+  },
+  {
+    "name": "dify",
+    "source": "lobe-icons",
+    "file": "dify.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/dify-color.svg"
+  },
+  {
+    "name": "doc2x",
+    "source": "lobe-icons",
+    "file": "doc2x.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/doc2x-color.svg"
+  },
+  {
+    "name": "docsearch",
+    "source": "lobe-icons",
+    "file": "docsearch.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/docsearch-color.svg"
+  },
+  {
+    "name": "dolphin",
+    "source": "lobe-icons",
+    "file": "dolphin.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/dolphin.svg"
+  },
+  {
+    "name": "doubao",
+    "source": "lobe-icons",
+    "file": "doubao.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/doubao-color.svg"
+  },
+  {
+    "name": "dreammachine",
+    "source": "lobe-icons",
+    "file": "dreammachine.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/dreammachine.svg"
+  },
+  {
+    "name": "duckdb",
+    "source": "simple-icons",
+    "file": "duckdb.svg",
+    "url": "https://cdn.simpleicons.org/duckdb"
+  },
+  {
+    "name": "elasticsearch",
+    "source": "simple-icons",
+    "file": "elasticsearch.svg",
+    "url": "https://cdn.simpleicons.org/elasticsearch"
+  },
+  {
+    "name": "elevenlabs",
+    "source": "lobe-icons",
+    "file": "elevenlabs.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/elevenlabs.svg"
+  },
+  {
+    "name": "elevenx",
+    "source": "lobe-icons",
+    "file": "elevenx.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/elevenx.svg"
+  },
+  {
+    "name": "essentialai",
+    "source": "lobe-icons",
+    "file": "essentialai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/essentialai-color.svg"
+  },
+  {
+    "name": "exa",
+    "source": "lobe-icons",
+    "file": "exa.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/exa-color.svg"
+  },
+  {
+    "name": "fal",
+    "source": "lobe-icons",
+    "file": "fal.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/fal-color.svg"
+  },
+  {
+    "name": "fastgpt",
+    "source": "lobe-icons",
+    "file": "fastgpt.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/fastgpt-color.svg"
+  },
+  {
+    "name": "featherless",
+    "source": "lobe-icons",
+    "file": "featherless.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/featherless-color.svg"
+  },
+  {
+    "name": "figma",
+    "source": "lobe-icons",
+    "file": "figma.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/figma-color.svg"
+  },
+  {
+    "name": "fireworks",
+    "source": "lobe-icons",
+    "file": "fireworks.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/fireworks-color.svg"
+  },
+  {
+    "name": "fishaudio",
+    "source": "lobe-icons",
+    "file": "fishaudio.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/fishaudio.svg"
+  },
+  {
+    "name": "flora",
+    "source": "lobe-icons",
+    "file": "flora.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/flora.svg"
+  },
+  {
+    "name": "flowith",
+    "source": "lobe-icons",
+    "file": "flowith.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/flowith.svg"
+  },
+  {
+    "name": "flux",
+    "source": "lobe-icons",
+    "file": "flux.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/flux.svg"
+  },
+  {
+    "name": "friendli",
+    "source": "lobe-icons",
+    "file": "friendli.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/friendli.svg"
+  },
+  {
+    "name": "gemini",
+    "source": "lobe-icons",
+    "file": "gemini.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/gemini-color.svg"
+  },
+  {
+    "name": "geminicli",
+    "source": "lobe-icons",
+    "file": "geminicli.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/geminicli-color.svg"
+  },
+  {
+    "name": "gemma",
+    "source": "lobe-icons",
+    "file": "gemma.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/gemma-color.svg"
+  },
+  {
+    "name": "giteeai",
+    "source": "lobe-icons",
+    "file": "giteeai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/giteeai.svg"
+  },
+  {
+    "name": "github",
+    "source": "lobe-icons",
+    "file": "github.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/github.svg"
+  },
+  {
+    "name": "githubcopilot",
+    "source": "lobe-icons",
+    "file": "githubcopilot.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/githubcopilot.svg"
+  },
+  {
+    "name": "glama",
+    "source": "lobe-icons",
+    "file": "glama.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/glama.svg"
+  },
+  {
+    "name": "glif",
+    "source": "lobe-icons",
+    "file": "glif.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/glif.svg"
+  },
+  {
+    "name": "glmv",
+    "source": "lobe-icons",
+    "file": "glmv.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/glmv-color.svg"
+  },
+  {
+    "name": "google",
+    "source": "lobe-icons",
+    "file": "google.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/google-color.svg"
+  },
+  {
+    "name": "googlecloud",
+    "source": "lobe-icons",
+    "file": "googlecloud.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/googlecloud-color.svg"
+  },
+  {
+    "name": "goose",
+    "source": "lobe-icons",
+    "file": "goose.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/goose.svg"
+  },
+  {
+    "name": "gradio",
+    "source": "lobe-icons",
+    "file": "gradio.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/gradio-color.svg"
+  },
+  {
+    "name": "greptile",
+    "source": "lobe-icons",
+    "file": "greptile.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/greptile-color.svg"
+  },
+  {
+    "name": "grok",
+    "source": "lobe-icons",
+    "file": "grok.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/grok.svg"
+  },
+  {
+    "name": "groq",
+    "source": "lobe-icons",
+    "file": "groq.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/groq.svg"
+  },
+  {
+    "name": "hailuo",
+    "source": "lobe-icons",
+    "file": "hailuo.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/hailuo-color.svg"
+  },
+  {
+    "name": "haiper",
+    "source": "lobe-icons",
+    "file": "haiper.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/haiper.svg"
+  },
+  {
+    "name": "hedra",
+    "source": "lobe-icons",
+    "file": "hedra.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/hedra.svg"
+  },
+  {
+    "name": "hermesagent",
+    "source": "lobe-icons",
+    "file": "hermesagent.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/hermesagent.svg"
+  },
+  {
+    "name": "higress",
+    "source": "lobe-icons",
+    "file": "higress.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/higress-color.svg"
+  },
+  {
+    "name": "huawei",
+    "source": "lobe-icons",
+    "file": "huawei.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/huawei-color.svg"
+  },
+  {
+    "name": "huaweicloud",
+    "source": "lobe-icons",
+    "file": "huaweicloud.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/huaweicloud-color.svg"
+  },
+  {
+    "name": "huggingface",
+    "source": "lobe-icons",
+    "file": "huggingface.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/huggingface-color.svg"
+  },
+  {
+    "name": "hunyuan",
+    "source": "lobe-icons",
+    "file": "hunyuan.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/hunyuan-color.svg"
+  },
+  {
+    "name": "hyperbolic",
+    "source": "lobe-icons",
+    "file": "hyperbolic.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/hyperbolic-color.svg"
+  },
+  {
+    "name": "ibm",
+    "source": "lobe-icons",
+    "file": "ibm.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/ibm.svg"
+  },
+  {
+    "name": "ideogram",
+    "source": "lobe-icons",
+    "file": "ideogram.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/ideogram.svg"
+  },
+  {
+    "name": "iflytekcloud",
+    "source": "lobe-icons",
+    "file": "iflytekcloud.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/iflytekcloud-color.svg"
+  },
+  {
+    "name": "inception",
+    "source": "lobe-icons",
+    "file": "inception.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/inception.svg"
+  },
+  {
+    "name": "inference",
+    "source": "lobe-icons",
+    "file": "inference.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/inference.svg"
+  },
+  {
+    "name": "infermatic",
+    "source": "lobe-icons",
+    "file": "infermatic.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/infermatic-color.svg"
+  },
+  {
+    "name": "infinigence",
+    "source": "lobe-icons",
+    "file": "infinigence.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/infinigence-color.svg"
+  },
+  {
+    "name": "inflection",
+    "source": "lobe-icons",
+    "file": "inflection.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/inflection.svg"
+  },
+  {
+    "name": "internlm",
+    "source": "lobe-icons",
+    "file": "internlm.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/internlm-color.svg"
+  },
+  {
+    "name": "jimeng",
+    "source": "lobe-icons",
+    "file": "jimeng.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/jimeng-color.svg"
+  },
+  {
+    "name": "jina",
+    "source": "lobe-icons",
+    "file": "jina.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/jina.svg"
+  },
+  {
+    "name": "junie",
+    "source": "lobe-icons",
+    "file": "junie.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/junie-color.svg"
+  },
+  {
+    "name": "kafka",
+    "source": "simple-icons",
+    "file": "kafka.svg",
+    "url": "https://cdn.simpleicons.org/apachekafka"
+  },
+  {
+    "name": "kilocode",
+    "source": "lobe-icons",
+    "file": "kilocode.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/kilocode.svg"
+  },
+  {
+    "name": "kimi",
+    "source": "lobe-icons",
+    "file": "kimi.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/kimi-color.svg"
+  },
+  {
+    "name": "kiro",
+    "source": "lobe-icons",
+    "file": "kiro.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/kiro-color.svg"
+  },
+  {
+    "name": "kling",
+    "source": "lobe-icons",
+    "file": "kling.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/kling-color.svg"
+  },
+  {
+    "name": "kluster",
+    "source": "lobe-icons",
+    "file": "kluster.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/kluster-color.svg"
+  },
+  {
+    "name": "kolors",
+    "source": "lobe-icons",
+    "file": "kolors.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/kolors-color.svg"
+  },
+  {
+    "name": "krea",
+    "source": "lobe-icons",
+    "file": "krea.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/krea.svg"
+  },
+  {
+    "name": "kwaikat",
+    "source": "lobe-icons",
+    "file": "kwaikat.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/kwaikat.svg"
+  },
+  {
+    "name": "kwaikat-text",
+    "source": "lobe-icons",
+    "file": "kwaikat-text.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/kwaikat-text-color.svg"
+  },
+  {
+    "name": "kwaipilot",
+    "source": "lobe-icons",
+    "file": "kwaipilot.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/kwaipilot-color.svg"
+  },
+  {
+    "name": "lambda",
+    "source": "lobe-icons",
+    "file": "lambda.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/lambda.svg"
+  },
+  {
+    "name": "langchain",
+    "source": "lobe-icons",
+    "file": "langchain.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/langchain-color.svg"
+  },
+  {
+    "name": "langfuse",
+    "source": "lobe-icons",
+    "file": "langfuse.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/langfuse-color.svg"
+  },
+  {
+    "name": "langgraph",
+    "source": "lobe-icons",
+    "file": "langgraph.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/langgraph-color.svg"
+  },
+  {
+    "name": "langsmith",
+    "source": "lobe-icons",
+    "file": "langsmith.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/langsmith-color.svg"
+  },
+  {
+    "name": "leptonai",
+    "source": "lobe-icons",
+    "file": "leptonai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/leptonai-color.svg"
+  },
+  {
+    "name": "lg",
+    "source": "lobe-icons",
+    "file": "lg.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/lg-color.svg"
+  },
+  {
+    "name": "lightricks",
+    "source": "lobe-icons",
+    "file": "lightricks.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/lightricks.svg"
+  },
+  {
+    "name": "liquid",
+    "source": "lobe-icons",
+    "file": "liquid.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/liquid.svg"
+  },
+  {
+    "name": "livekit",
+    "source": "lobe-icons",
+    "file": "livekit.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/livekit-color.svg"
+  },
+  {
+    "name": "llamaindex",
+    "source": "lobe-icons",
+    "file": "llamaindex.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/llamaindex-color.svg"
+  },
+  {
+    "name": "llava",
+    "source": "lobe-icons",
+    "file": "llava.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/llava-color.svg"
+  },
+  {
+    "name": "llmapi",
+    "source": "lobe-icons",
+    "file": "llmapi.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/llmapi-color.svg"
+  },
+  {
+    "name": "lmstudio",
+    "source": "lobe-icons",
+    "file": "lmstudio.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/lmstudio.svg"
+  },
+  {
+    "name": "lobehub",
+    "source": "lobe-icons",
+    "file": "lobehub.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/lobehub-color.svg"
+  },
+  {
+    "name": "longcat",
+    "source": "lobe-icons",
+    "file": "longcat.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/longcat-color.svg"
+  },
+  {
+    "name": "lovable",
+    "source": "lobe-icons",
+    "file": "lovable.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/lovable-color.svg"
+  },
+  {
+    "name": "lovart",
+    "source": "lobe-icons",
+    "file": "lovart.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/lovart.svg"
+  },
+  {
+    "name": "luma",
+    "source": "lobe-icons",
+    "file": "luma.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/luma-color.svg"
+  },
+  {
+    "name": "magic",
+    "source": "lobe-icons",
+    "file": "magic.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/magic.svg"
+  },
+  {
+    "name": "make",
+    "source": "lobe-icons",
+    "file": "make.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/make-color.svg"
+  },
+  {
+    "name": "manus",
+    "source": "lobe-icons",
+    "file": "manus.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/manus.svg"
+  },
+  {
+    "name": "mariadb",
+    "source": "simple-icons",
+    "file": "mariadb.svg",
+    "url": "https://cdn.simpleicons.org/mariadb"
+  },
+  {
+    "name": "mastra",
+    "source": "lobe-icons",
+    "file": "mastra.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/mastra.svg"
+  },
+  {
+    "name": "mcp",
+    "source": "lobe-icons",
+    "file": "mcp.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/mcp.svg"
+  },
+  {
+    "name": "mcpso",
+    "source": "lobe-icons",
+    "file": "mcpso.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/mcpso-color.svg"
+  },
+  {
+    "name": "menlo",
+    "source": "lobe-icons",
+    "file": "menlo.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/menlo-color.svg"
+  },
+  {
+    "name": "meshy",
+    "source": "lobe-icons",
+    "file": "meshy.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/meshy-color.svg"
+  },
+  {
+    "name": "meta",
+    "source": "lobe-icons",
+    "file": "meta.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/meta-color.svg"
+  },
+  {
+    "name": "metaai",
+    "source": "lobe-icons",
+    "file": "metaai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/metaai-color.svg"
+  },
+  {
+    "name": "metagpt",
+    "source": "lobe-icons",
+    "file": "metagpt.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/metagpt.svg"
+  },
+  {
+    "name": "microsoft",
+    "source": "lobe-icons",
+    "file": "microsoft.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/microsoft-color.svg"
+  },
+  {
+    "name": "midjourney",
+    "source": "lobe-icons",
+    "file": "midjourney.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/midjourney.svg"
+  },
+  {
+    "name": "milvus",
+    "source": "simple-icons",
+    "file": "milvus.svg",
+    "url": "https://cdn.simpleicons.org/milvus"
+  },
+  {
+    "name": "minimax",
+    "source": "lobe-icons",
+    "file": "minimax.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/minimax-color.svg"
+  },
+  {
+    "name": "mistral",
+    "source": "lobe-icons",
+    "file": "mistral.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/mistral-color.svg"
+  },
+  {
+    "name": "modelscope",
+    "source": "lobe-icons",
+    "file": "modelscope.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/modelscope-color.svg"
+  },
+  {
+    "name": "mongodb",
+    "source": "simple-icons",
+    "file": "mongodb.svg",
+    "url": "https://cdn.simpleicons.org/mongodb"
+  },
+  {
+    "name": "monica",
+    "source": "lobe-icons",
+    "file": "monica.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/monica-color.svg"
+  },
+  {
+    "name": "moonshot",
+    "source": "lobe-icons",
+    "file": "moonshot.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/moonshot.svg"
+  },
+  {
+    "name": "morph",
+    "source": "lobe-icons",
+    "file": "morph.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/morph-color.svg"
+  },
+  {
+    "name": "moxt",
+    "source": "lobe-icons",
+    "file": "moxt.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/moxt-color.svg"
+  },
+  {
+    "name": "myshell",
+    "source": "lobe-icons",
+    "file": "myshell.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/myshell-color.svg"
+  },
+  {
+    "name": "mysql",
+    "source": "simple-icons",
+    "file": "mysql.svg",
+    "url": "https://cdn.simpleicons.org/mysql"
+  },
+  {
+    "name": "n8n",
+    "source": "lobe-icons",
+    "file": "n8n.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/n8n-color.svg"
+  },
+  {
+    "name": "nanobanana",
+    "source": "lobe-icons",
+    "file": "nanobanana.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/nanobanana-color.svg"
+  },
+  {
+    "name": "nebius",
+    "source": "lobe-icons",
+    "file": "nebius.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/nebius.svg"
+  },
+  {
+    "name": "neo4j",
+    "source": "simple-icons",
+    "file": "neo4j.svg",
+    "url": "https://cdn.simpleicons.org/neo4j"
+  },
+  {
+    "name": "newapi",
+    "source": "lobe-icons",
+    "file": "newapi.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/newapi-color.svg"
+  },
+  {
+    "name": "notebooklm",
+    "source": "lobe-icons",
+    "file": "notebooklm.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/notebooklm.svg"
+  },
+  {
+    "name": "notion",
+    "source": "lobe-icons",
+    "file": "notion.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/notion.svg"
+  },
+  {
+    "name": "nousresearch",
+    "source": "lobe-icons",
+    "file": "nousresearch.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/nousresearch.svg"
+  },
+  {
+    "name": "nova",
+    "source": "lobe-icons",
+    "file": "nova.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/nova-color.svg"
+  },
+  {
+    "name": "novelai",
+    "source": "lobe-icons",
+    "file": "novelai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/novelai.svg"
+  },
+  {
+    "name": "novita",
+    "source": "lobe-icons",
+    "file": "novita.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/novita-color.svg"
+  },
+  {
+    "name": "nplcloud",
+    "source": "lobe-icons",
+    "file": "nplcloud.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/nplcloud-color.svg"
+  },
+  {
+    "name": "nvidia",
+    "source": "lobe-icons",
+    "file": "nvidia.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/nvidia-color.svg"
+  },
+  {
+    "name": "obsidian",
+    "source": "lobe-icons",
+    "file": "obsidian.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/obsidian-color.svg"
+  },
+  {
+    "name": "ollama",
+    "source": "lobe-icons",
+    "file": "ollama.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/ollama.svg"
+  },
+  {
+    "name": "openai",
+    "source": "lobe-icons",
+    "file": "openai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/openai.svg"
+  },
+  {
+    "name": "openchat",
+    "source": "lobe-icons",
+    "file": "openchat.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/openchat-color.svg"
+  },
+  {
+    "name": "openclaw",
+    "source": "lobe-icons",
+    "file": "openclaw.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/openclaw-color.svg"
+  },
+  {
+    "name": "opencode",
+    "source": "lobe-icons",
+    "file": "opencode.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/opencode.svg"
+  },
+  {
+    "name": "openhands",
+    "source": "lobe-icons",
+    "file": "openhands.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/openhands-color.svg"
+  },
+  {
+    "name": "openhuman",
+    "source": "lobe-icons",
+    "file": "openhuman.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/openhuman.svg"
+  },
+  {
+    "name": "openrouter",
+    "source": "lobe-icons",
+    "file": "openrouter.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/openrouter.svg"
+  },
+  {
+    "name": "openwebui",
+    "source": "lobe-icons",
+    "file": "openwebui.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/openwebui.svg"
+  },
+  {
+    "name": "palm",
+    "source": "lobe-icons",
+    "file": "palm.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/palm-color.svg"
+  },
+  {
+    "name": "parasail",
+    "source": "lobe-icons",
+    "file": "parasail.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/parasail.svg"
+  },
+  {
+    "name": "perplexity",
+    "source": "lobe-icons",
+    "file": "perplexity.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/perplexity-color.svg"
+  },
+  {
+    "name": "phidata",
+    "source": "lobe-icons",
+    "file": "phidata.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/phidata-color.svg"
+  },
+  {
+    "name": "phind",
+    "source": "lobe-icons",
+    "file": "phind.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/phind.svg"
+  },
+  {
+    "name": "pika",
+    "source": "lobe-icons",
+    "file": "pika.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/pika.svg"
+  },
+  {
+    "name": "pixverse",
+    "source": "lobe-icons",
+    "file": "pixverse.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/pixverse-color.svg"
+  },
+  {
+    "name": "player2",
+    "source": "lobe-icons",
+    "file": "player2.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/player2-color.svg"
+  },
+  {
+    "name": "poe",
+    "source": "lobe-icons",
+    "file": "poe.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/poe-color.svg"
+  },
+  {
+    "name": "pollinations",
+    "source": "lobe-icons",
+    "file": "pollinations.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/pollinations.svg"
+  },
+  {
+    "name": "postgresql",
+    "source": "simple-icons",
+    "file": "postgresql.svg",
+    "url": "https://cdn.simpleicons.org/postgresql"
+  },
+  {
+    "name": "ppio",
+    "source": "lobe-icons",
+    "file": "ppio.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/ppio-color.svg"
+  },
+  {
+    "name": "prunaai",
+    "source": "lobe-icons",
+    "file": "prunaai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/prunaai-color.svg"
+  },
+  {
+    "name": "pydanticai",
+    "source": "lobe-icons",
+    "file": "pydanticai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/pydanticai-color.svg"
+  },
+  {
+    "name": "qdrant",
+    "source": "simple-icons",
+    "file": "qdrant.svg",
+    "url": "https://cdn.simpleicons.org/qdrant"
+  },
+  {
+    "name": "qingyan",
+    "source": "lobe-icons",
+    "file": "qingyan.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/qingyan-color.svg"
+  },
+  {
+    "name": "qiniu",
+    "source": "lobe-icons",
+    "file": "qiniu.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/qiniu-color.svg"
+  },
+  {
+    "name": "qoder",
+    "source": "lobe-icons",
+    "file": "qoder.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/qoder-color.svg"
+  },
+  {
+    "name": "qwen",
+    "source": "lobe-icons",
+    "file": "qwen.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/qwen-color.svg"
+  },
+  {
+    "name": "railway",
+    "source": "lobe-icons",
+    "file": "railway.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/railway.svg"
+  },
+  {
+    "name": "recraft",
+    "source": "lobe-icons",
+    "file": "recraft.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/recraft.svg"
+  },
+  {
+    "name": "redis",
+    "source": "simple-icons",
+    "file": "redis.svg",
+    "url": "https://cdn.simpleicons.org/redis"
+  },
+  {
+    "name": "relace",
+    "source": "lobe-icons",
+    "file": "relace.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/relace.svg"
+  },
+  {
+    "name": "replicate",
+    "source": "lobe-icons",
+    "file": "replicate.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/replicate.svg"
+  },
+  {
+    "name": "replit",
+    "source": "lobe-icons",
+    "file": "replit.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/replit-color.svg"
+  },
+  {
+    "name": "reve",
+    "source": "lobe-icons",
+    "file": "reve.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/reve.svg"
+  },
+  {
+    "name": "roocode",
+    "source": "lobe-icons",
+    "file": "roocode.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/roocode.svg"
+  },
+  {
+    "name": "rsshub",
+    "source": "lobe-icons",
+    "file": "rsshub.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/rsshub-color.svg"
+  },
+  {
+    "name": "runway",
+    "source": "lobe-icons",
+    "file": "runway.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/runway.svg"
+  },
+  {
+    "name": "rwkv",
+    "source": "lobe-icons",
+    "file": "rwkv.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/rwkv-color.svg"
+  },
+  {
+    "name": "sambanova",
+    "source": "lobe-icons",
+    "file": "sambanova.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/sambanova-color.svg"
+  },
+  {
+    "name": "search1api",
+    "source": "lobe-icons",
+    "file": "search1api.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/search1api-color.svg"
+  },
+  {
+    "name": "searchapi",
+    "source": "lobe-icons",
+    "file": "searchapi.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/searchapi.svg"
+  },
+  {
+    "name": "sensenova",
+    "source": "lobe-icons",
+    "file": "sensenova.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/sensenova-color.svg"
+  },
+  {
+    "name": "siliconcloud",
+    "source": "lobe-icons",
+    "file": "siliconcloud.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/siliconcloud-color.svg"
+  },
+  {
+    "name": "sillytavern",
+    "source": "lobe-icons",
+    "file": "sillytavern.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/sillytavern-color.svg"
+  },
+  {
+    "name": "skywork",
+    "source": "lobe-icons",
+    "file": "skywork.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/skywork-color.svg"
+  },
+  {
+    "name": "slock",
+    "source": "lobe-icons",
+    "file": "slock.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/slock.svg"
+  },
+  {
+    "name": "smithery",
+    "source": "lobe-icons",
+    "file": "smithery.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/smithery-color.svg"
+  },
+  {
+    "name": "snowflake",
+    "source": "lobe-icons",
+    "file": "snowflake.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/snowflake-color.svg"
+  },
+  {
+    "name": "sophnet",
+    "source": "lobe-icons",
+    "file": "sophnet.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/sophnet-color.svg"
+  },
+  {
+    "name": "sora",
+    "source": "lobe-icons",
+    "file": "sora.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/sora-color.svg"
+  },
+  {
+    "name": "spark",
+    "source": "lobe-icons",
+    "file": "spark.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/spark-color.svg"
+  },
+  {
+    "name": "speedai",
+    "source": "lobe-icons",
+    "file": "speedai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/speedai-color.svg"
+  },
+  {
+    "name": "sqlite",
+    "source": "simple-icons",
+    "file": "sqlite.svg",
+    "url": "https://cdn.simpleicons.org/sqlite"
+  },
+  {
+    "name": "stability",
+    "source": "lobe-icons",
+    "file": "stability.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/stability-color.svg"
+  },
+  {
+    "name": "statecloud",
+    "source": "lobe-icons",
+    "file": "statecloud.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/statecloud-color.svg"
+  },
+  {
+    "name": "stepfun",
+    "source": "lobe-icons",
+    "file": "stepfun.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/stepfun-color.svg"
+  },
+  {
+    "name": "straico",
+    "source": "lobe-icons",
+    "file": "straico.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/straico-color.svg"
+  },
+  {
+    "name": "streamlake",
+    "source": "lobe-icons",
+    "file": "streamlake.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/streamlake-color.svg"
+  },
+  {
+    "name": "submodel",
+    "source": "lobe-icons",
+    "file": "submodel.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/submodel-color.svg"
+  },
+  {
+    "name": "suno",
+    "source": "lobe-icons",
+    "file": "suno.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/suno.svg"
+  },
+  {
+    "name": "supabase",
+    "source": "simple-icons",
+    "file": "supabase.svg",
+    "url": "https://cdn.simpleicons.org/supabase"
+  },
+  {
+    "name": "sync",
+    "source": "lobe-icons",
+    "file": "sync.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/sync.svg"
+  },
+  {
+    "name": "targon",
+    "source": "lobe-icons",
+    "file": "targon.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/targon-color.svg"
+  },
+  {
+    "name": "tavily",
+    "source": "lobe-icons",
+    "file": "tavily.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/tavily-color.svg"
+  },
+  {
+    "name": "tencent",
+    "source": "lobe-icons",
+    "file": "tencent.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/tencent-color.svg"
+  },
+  {
+    "name": "tencentcloud",
+    "source": "lobe-icons",
+    "file": "tencentcloud.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/tencentcloud-color.svg"
+  },
+  {
+    "name": "tiangong",
+    "source": "lobe-icons",
+    "file": "tiangong.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/tiangong-color.svg"
+  },
+  {
+    "name": "tii",
+    "source": "lobe-icons",
+    "file": "tii.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/tii-color.svg"
+  },
+  {
+    "name": "together",
+    "source": "lobe-icons",
+    "file": "together.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/together-color.svg"
+  },
+  {
+    "name": "topazlabs",
+    "source": "lobe-icons",
+    "file": "topazlabs.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/topazlabs.svg"
+  },
+  {
+    "name": "trae",
+    "source": "lobe-icons",
+    "file": "trae.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/trae-color.svg"
+  },
+  {
+    "name": "tripo",
+    "source": "lobe-icons",
+    "file": "tripo.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/tripo-color.svg"
+  },
+  {
+    "name": "turix",
+    "source": "lobe-icons",
+    "file": "turix.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/turix.svg"
+  },
+  {
+    "name": "udio",
+    "source": "lobe-icons",
+    "file": "udio.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/udio-color.svg"
+  },
+  {
+    "name": "unstructured",
+    "source": "lobe-icons",
+    "file": "unstructured.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/unstructured-color.svg"
+  },
+  {
+    "name": "upstage",
+    "source": "lobe-icons",
+    "file": "upstage.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/upstage-color.svg"
+  },
+  {
+    "name": "v0",
+    "source": "lobe-icons",
+    "file": "v0.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/v0.svg"
+  },
+  {
+    "name": "vectorizerai",
+    "source": "lobe-icons",
+    "file": "vectorizerai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/vectorizerai.svg"
+  },
+  {
+    "name": "venice",
+    "source": "lobe-icons",
+    "file": "venice.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/venice-color.svg"
+  },
+  {
+    "name": "vercel",
+    "source": "lobe-icons",
+    "file": "vercel.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/vercel.svg"
+  },
+  {
+    "name": "vertexai",
+    "source": "lobe-icons",
+    "file": "vertexai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/vertexai-color.svg"
+  },
+  {
+    "name": "vidu",
+    "source": "lobe-icons",
+    "file": "vidu.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/vidu-color.svg"
+  },
+  {
+    "name": "viggle",
+    "source": "lobe-icons",
+    "file": "viggle.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/viggle.svg"
+  },
+  {
+    "name": "vllm",
+    "source": "lobe-icons",
+    "file": "vllm.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/vllm-color.svg"
+  },
+  {
+    "name": "volcengine",
+    "source": "lobe-icons",
+    "file": "volcengine.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/volcengine-color.svg"
+  },
+  {
+    "name": "voyage",
+    "source": "lobe-icons",
+    "file": "voyage.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/voyage-color.svg"
+  },
+  {
+    "name": "wenxin",
+    "source": "lobe-icons",
+    "file": "wenxin.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/wenxin-color.svg"
+  },
+  {
+    "name": "windsurf",
+    "source": "lobe-icons",
+    "file": "windsurf.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/windsurf.svg"
+  },
+  {
+    "name": "workersai",
+    "source": "lobe-icons",
+    "file": "workersai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/workersai-color.svg"
+  },
+  {
+    "name": "worldrouter",
+    "source": "lobe-icons",
+    "file": "worldrouter.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/worldrouter.svg"
+  },
+  {
+    "name": "xai",
+    "source": "lobe-icons",
+    "file": "xai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/xai.svg"
+  },
+  {
+    "name": "xiaomimimo",
+    "source": "lobe-icons",
+    "file": "xiaomimimo.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/xiaomimimo.svg"
+  },
+  {
+    "name": "xinference",
+    "source": "lobe-icons",
+    "file": "xinference.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/xinference-color.svg"
+  },
+  {
+    "name": "xpay",
+    "source": "lobe-icons",
+    "file": "xpay.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/xpay-color.svg"
+  },
+  {
+    "name": "xuanyuan",
+    "source": "lobe-icons",
+    "file": "xuanyuan.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/xuanyuan-color.svg"
+  },
+  {
+    "name": "yandex",
+    "source": "lobe-icons",
+    "file": "yandex.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/yandex.svg"
+  },
+  {
+    "name": "yi",
+    "source": "lobe-icons",
+    "file": "yi.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/yi-color.svg"
+  },
+  {
+    "name": "youmind",
+    "source": "lobe-icons",
+    "file": "youmind.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/youmind.svg"
+  },
+  {
+    "name": "yuanbao",
+    "source": "lobe-icons",
+    "file": "yuanbao.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/yuanbao-color.svg"
+  },
+  {
+    "name": "zai",
+    "source": "lobe-icons",
+    "file": "zai.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/zai.svg"
+  },
+  {
+    "name": "zapier",
+    "source": "lobe-icons",
+    "file": "zapier.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/zapier-color.svg"
+  },
+  {
+    "name": "zeabur",
+    "source": "lobe-icons",
+    "file": "zeabur.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/zeabur-color.svg"
+  },
+  {
+    "name": "zencoder",
+    "source": "lobe-icons",
+    "file": "zencoder.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/zencoder-color.svg"
+  },
+  {
+    "name": "zenmux",
+    "source": "lobe-icons",
+    "file": "zenmux.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/zenmux.svg"
+  },
+  {
+    "name": "zeroone",
+    "source": "lobe-icons",
+    "file": "zeroone.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/zeroone-color.svg"
+  },
+  {
+    "name": "zhipu",
+    "source": "lobe-icons",
+    "file": "zhipu.svg",
+    "url": "https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/zhipu-color.svg"
+  }
+]

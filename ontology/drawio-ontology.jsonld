@@ -1,0 +1,3973 @@
+{
+  "@context": {
+    "@vocab": "https://example.local/drawio-ontology#",
+    "name": "http://schema.org/name",
+    "description": "http://schema.org/description",
+    "implements": {
+      "@type": "@id"
+    },
+    "belongsTo": {
+      "@type": "@id"
+    },
+    "produces": {
+      "@type": "@id"
+    },
+    "uses": {
+      "@type": "@id"
+    },
+    "recommendedFor": {
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "capability:aiicons",
+      "@type": "Capability",
+      "name": "aiicons",
+      "category": "asset_resolution",
+      "script": "04_skill完整副本/scripts/aiicons.py",
+      "produces": [
+        "draw.io image style",
+        "SVG URL/data URI"
+      ]
+    },
+    {
+      "@id": "capability:autolayout",
+      "@type": "Capability",
+      "name": "autolayout",
+      "category": "authoring_layout",
+      "script": "04_skill完整副本/scripts/autolayout.py",
+      "produces": [
+        ".drawio"
+      ]
+    },
+    {
+      "@id": "capability:buildup",
+      "@type": "Capability",
+      "name": "buildup",
+      "category": "animation",
+      "script": "04_skill完整副本/scripts/buildup.py",
+      "produces": [
+        "HTML player",
+        "GIF"
+      ]
+    },
+    {
+      "@id": "capability:c4",
+      "@type": "Capability",
+      "name": "c4",
+      "category": "authoring_specialized",
+      "script": "04_skill完整副本/scripts/c4.py",
+      "produces": [
+        "multi-page .drawio"
+      ]
+    },
+    {
+      "@id": "capability:ciimports",
+      "@type": "Capability",
+      "name": "ciimports",
+      "category": "import_pipeline",
+      "script": "04_skill完整副本/scripts/ciimports.py",
+      "produces": [
+        "graph JSON"
+      ]
+    },
+    {
+      "@id": "capability:composeimports",
+      "@type": "Capability",
+      "name": "composeimports",
+      "category": "import_infrastructure",
+      "script": "04_skill完整副本/scripts/composeimports.py",
+      "produces": [
+        "graph JSON"
+      ]
+    },
+    {
+      "@id": "capability:compress",
+      "@type": "Capability",
+      "name": "compress",
+      "category": "transformation",
+      "script": "04_skill完整副本/scripts/compress.py",
+      "produces": [
+        "2-page executive .drawio"
+      ]
+    },
+    {
+      "@id": "capability:dockerimports",
+      "@type": "Capability",
+      "name": "dockerimports",
+      "category": "import_live_infrastructure",
+      "script": "04_skill完整副本/scripts/dockerimports.py",
+      "produces": [
+        "graph JSON"
+      ]
+    },
+    {
+      "@id": "capability:drawio2mermaid",
+      "@type": "Capability",
+      "name": "drawio2mermaid",
+      "category": "export_interop",
+      "script": "04_skill完整副本/scripts/drawio2mermaid.py",
+      "produces": [
+        "Mermaid text"
+      ]
+    },
+    {
+      "@id": "capability:drawio2pptx",
+      "@type": "Capability",
+      "name": "drawio2pptx",
+      "category": "export_interop",
+      "script": "04_skill完整副本/scripts/drawio2pptx.py",
+      "produces": [
+        ".pptx"
+      ]
+    },
+    {
+      "@id": "capability:drawiodiff",
+      "@type": "Capability",
+      "name": "drawiodiff",
+      "category": "comparison",
+      "script": "04_skill完整副本/scripts/drawiodiff.py",
+      "produces": [
+        "diff graph JSON"
+      ]
+    },
+    {
+      "@id": "capability:drawiohtml",
+      "@type": "Capability",
+      "name": "drawiohtml",
+      "category": "export_interactive",
+      "script": "04_skill完整副本/scripts/drawiohtml.py",
+      "produces": [
+        "self-contained HTML"
+      ]
+    },
+    {
+      "@id": "capability:edgeports",
+      "@type": "Capability",
+      "name": "edgeports",
+      "category": "quality_routing",
+      "script": "04_skill完整副本/scripts/edgeports.py",
+      "produces": [
+        "updated .drawio"
+      ]
+    },
+    {
+      "@id": "capability:encode_drawio_url",
+      "@type": "Capability",
+      "name": "encode_drawio_url",
+      "category": "fallback",
+      "script": "04_skill完整副本/scripts/encode_drawio_url.py",
+      "produces": [
+        "viewer/editor URL"
+      ]
+    },
+    {
+      "@id": "capability:explain",
+      "@type": "Capability",
+      "name": "explain",
+      "category": "reverse_description",
+      "script": "04_skill完整副本/scripts/explain.py",
+      "produces": [
+        "Markdown"
+      ]
+    },
+    {
+      "@id": "capability:goimports",
+      "@type": "Capability",
+      "name": "goimports",
+      "category": "import_code",
+      "script": "04_skill完整副本/scripts/goimports.py",
+      "produces": [
+        "graph JSON"
+      ]
+    },
+    {
+      "@id": "capability:heatmap",
+      "@type": "Capability",
+      "name": "heatmap",
+      "category": "data_overlay",
+      "script": "04_skill完整副本/scripts/heatmap.py",
+      "produces": [
+        "recolored .drawio"
+      ]
+    },
+    {
+      "@id": "capability:jsimports",
+      "@type": "Capability",
+      "name": "jsimports",
+      "category": "import_code",
+      "script": "04_skill完整副本/scripts/jsimports.py",
+      "produces": [
+        "graph JSON"
+      ]
+    },
+    {
+      "@id": "capability:k8simports",
+      "@type": "Capability",
+      "name": "k8simports",
+      "category": "import_infrastructure",
+      "script": "04_skill完整副本/scripts/k8simports.py",
+      "produces": [
+        "graph JSON"
+      ]
+    },
+    {
+      "@id": "capability:openapiimports",
+      "@type": "Capability",
+      "name": "openapiimports",
+      "category": "import_api",
+      "script": "04_skill完整副本/scripts/openapiimports.py",
+      "produces": [
+        "graph JSON"
+      ]
+    },
+    {
+      "@id": "capability:prdiff",
+      "@type": "Capability",
+      "name": "prdiff",
+      "category": "review_automation",
+      "script": "04_skill完整副本/scripts/prdiff.py",
+      "produces": [
+        "PNG diff report",
+        "Markdown"
+      ]
+    },
+    {
+      "@id": "capability:pyclasses",
+      "@type": "Capability",
+      "name": "pyclasses",
+      "category": "import_code",
+      "script": "04_skill完整副本/scripts/pyclasses.py",
+      "produces": [
+        "class graph JSON"
+      ]
+    },
+    {
+      "@id": "capability:pyimports",
+      "@type": "Capability",
+      "name": "pyimports",
+      "category": "import_code",
+      "script": "04_skill完整副本/scripts/pyimports.py",
+      "produces": [
+        "import graph JSON"
+      ]
+    },
+    {
+      "@id": "capability:raster2drawio",
+      "@type": "Capability",
+      "name": "raster2drawio",
+      "category": "reverse_engineering",
+      "script": "04_skill完整副本/scripts/raster2drawio.py",
+      "produces": [
+        "editable .drawio"
+      ]
+    },
+    {
+      "@id": "capability:relabel",
+      "@type": "Capability",
+      "name": "relabel",
+      "category": "localization",
+      "script": "04_skill完整副本/scripts/relabel.py",
+      "produces": [
+        "relabeled .drawio"
+      ]
+    },
+    {
+      "@id": "capability:repair_png",
+      "@type": "Capability",
+      "name": "repair_png",
+      "category": "quality_export",
+      "script": "04_skill完整副本/scripts/repair_png.py",
+      "produces": [
+        "repaired PNG"
+      ]
+    },
+    {
+      "@id": "capability:restyle",
+      "@type": "Capability",
+      "name": "restyle",
+      "category": "styling",
+      "script": "04_skill完整副本/scripts/restyle.py",
+      "produces": [
+        "restyled .drawio"
+      ]
+    },
+    {
+      "@id": "capability:runbook",
+      "@type": "Capability",
+      "name": "runbook",
+      "category": "export_interactive",
+      "script": "04_skill完整副本/scripts/runbook.py",
+      "produces": [
+        "interactive HTML runbook"
+      ]
+    },
+    {
+      "@id": "capability:rustimports",
+      "@type": "Capability",
+      "name": "rustimports",
+      "category": "import_code",
+      "script": "04_skill完整副本/scripts/rustimports.py",
+      "produces": [
+        "graph JSON"
+      ]
+    },
+    {
+      "@id": "capability:seqlayout",
+      "@type": "Capability",
+      "name": "seqlayout",
+      "category": "authoring_specialized",
+      "script": "04_skill完整副本/scripts/seqlayout.py",
+      "produces": [
+        "sequence .drawio"
+      ]
+    },
+    {
+      "@id": "capability:shapesearch",
+      "@type": "Capability",
+      "name": "shapesearch",
+      "category": "asset_resolution",
+      "script": "04_skill完整副本/scripts/shapesearch.py",
+      "produces": [
+        "exact style, width, height"
+      ]
+    },
+    {
+      "@id": "capability:sqlerd",
+      "@type": "Capability",
+      "name": "sqlerd",
+      "category": "import_database",
+      "script": "04_skill完整副本/scripts/sqlerd.py",
+      "produces": [
+        "ER graph JSON"
+      ]
+    },
+    {
+      "@id": "capability:svgflow",
+      "@type": "Capability",
+      "name": "svgflow",
+      "category": "animation",
+      "script": "04_skill完整副本/scripts/svgflow.py",
+      "produces": [
+        "animated SVG"
+      ]
+    },
+    {
+      "@id": "capability:tfimports",
+      "@type": "Capability",
+      "name": "tfimports",
+      "category": "import_infrastructure",
+      "script": "04_skill完整副本/scripts/tfimports.py",
+      "produces": [
+        "graph JSON"
+      ]
+    },
+    {
+      "@id": "capability:tfstate",
+      "@type": "Capability",
+      "name": "tfstate",
+      "category": "import_live_infrastructure",
+      "script": "04_skill完整副本/scripts/tfstate.py",
+      "produces": [
+        "graph JSON"
+      ]
+    },
+    {
+      "@id": "capability:timelapse",
+      "@type": "Capability",
+      "name": "timelapse",
+      "category": "evolution",
+      "script": "04_skill完整副本/scripts/timelapse.py",
+      "produces": [
+        "HTML architecture timelapse"
+      ]
+    },
+    {
+      "@id": "capability:tubemap",
+      "@type": "Capability",
+      "name": "tubemap",
+      "category": "authoring_specialized",
+      "script": "04_skill完整副本/scripts/tubemap.py",
+      "produces": [
+        "tube-map .drawio"
+      ]
+    },
+    {
+      "@id": "capability:validate",
+      "@type": "Capability",
+      "name": "validate",
+      "category": "quality_validation",
+      "script": "04_skill完整副本/scripts/validate.py",
+      "produces": [
+        "lint report",
+        "readability score"
+      ]
+    },
+    {
+      "@id": "diagram:erd",
+      "@type": "DiagramType",
+      "name": "Entity-Relationship Diagram",
+      "recommendedTools": [
+        "sqlerd.py",
+        "autolayout.py"
+      ],
+      "elements": [
+        "table",
+        "column",
+        "primary key",
+        "foreign key",
+        "crow's-foot edge"
+      ]
+    },
+    {
+      "@id": "diagram:uml_class",
+      "@type": "DiagramType",
+      "name": "UML Class Diagram",
+      "recommendedTools": [
+        "pyclasses.py",
+        "autolayout.py"
+      ],
+      "elements": [
+        "class",
+        "attribute",
+        "method",
+        "inheritance",
+        "composition",
+        "aggregation"
+      ]
+    },
+    {
+      "@id": "diagram:sequence",
+      "@type": "DiagramType",
+      "name": "Sequence Diagram",
+      "recommendedTools": [
+        "seqlayout.py"
+      ],
+      "elements": [
+        "participant",
+        "lifeline",
+        "message",
+        "return",
+        "activation"
+      ]
+    },
+    {
+      "@id": "diagram:c4",
+      "@type": "DiagramType",
+      "name": "C4 Model",
+      "recommendedTools": [
+        "c4.py"
+      ],
+      "elements": [
+        "person",
+        "software system",
+        "container",
+        "component",
+        "database",
+        "relationship",
+        "drill-down"
+      ]
+    },
+    {
+      "@id": "diagram:architecture",
+      "@type": "DiagramType",
+      "name": "Architecture Diagram",
+      "recommendedTools": [
+        "autolayout.py",
+        "edgeports.py"
+      ],
+      "elements": [
+        "client",
+        "gateway",
+        "service",
+        "queue",
+        "database",
+        "external system",
+        "tier container"
+      ]
+    },
+    {
+      "@id": "diagram:ml_dl",
+      "@type": "DiagramType",
+      "name": "ML / Deep Learning Model Diagram",
+      "recommendedTools": [
+        "shapesearch.py",
+        "validate.py"
+      ],
+      "elements": [
+        "input",
+        "feature map",
+        "layer block",
+        "attention",
+        "normalization",
+        "distance",
+        "loss",
+        "tensor annotation",
+        "skip connection"
+      ]
+    },
+    {
+      "@id": "diagram:sysml",
+      "@type": "DiagramType",
+      "name": "SysML / MBSE",
+      "recommendedTools": [
+        "shapesearch.py"
+      ],
+      "elements": [
+        "block",
+        "part",
+        "port",
+        "requirement",
+        "constraint",
+        "binding connector"
+      ]
+    },
+    {
+      "@id": "diagram:bpmn",
+      "@type": "DiagramType",
+      "name": "BPMN Business Process",
+      "recommendedTools": [
+        "shapesearch.py",
+        "edgeports.py"
+      ],
+      "elements": [
+        "pool",
+        "lane",
+        "task",
+        "event",
+        "gateway",
+        "sequence flow",
+        "message flow"
+      ]
+    },
+    {
+      "@id": "diagram:network",
+      "@type": "DiagramType",
+      "name": "Network Topology",
+      "recommendedTools": [
+        "shapesearch.py",
+        "autolayout.py"
+      ],
+      "elements": [
+        "router",
+        "switch",
+        "firewall",
+        "load balancer",
+        "server",
+        "storage",
+        "zone",
+        "link"
+      ]
+    },
+    {
+      "@id": "diagram:swimlane",
+      "@type": "DiagramType",
+      "name": "Cross-Functional Flowchart",
+      "recommendedTools": [
+        "edgeports.py",
+        "validate.py"
+      ],
+      "elements": [
+        "pool",
+        "lane",
+        "process",
+        "decision",
+        "handoff edge"
+      ]
+    },
+    {
+      "@id": "diagram:flowchart",
+      "@type": "DiagramType",
+      "name": "Flowchart",
+      "recommendedTools": [
+        "autolayout.py",
+        "validate.py"
+      ],
+      "elements": [
+        "start/end",
+        "process",
+        "decision",
+        "input/output",
+        "subprocess",
+        "labeled branch"
+      ]
+    },
+    {
+      "@id": "library:builtin",
+      "@type": "ShapeLibrary",
+      "name": "builtin",
+      "domain": "general",
+      "shapeCount": 1634,
+      "browsePath": "01_官方Shapes_PNG/individual_png/builtin/index.html"
+    },
+    {
+      "@id": "library:aws4",
+      "@type": "ShapeLibrary",
+      "name": "aws4",
+      "domain": "cloud",
+      "shapeCount": 1346,
+      "browsePath": "01_官方Shapes_PNG/individual_png/aws4/index.html"
+    },
+    {
+      "@id": "library:office",
+      "@type": "ShapeLibrary",
+      "name": "office",
+      "domain": "branding",
+      "shapeCount": 529,
+      "browsePath": "01_官方Shapes_PNG/individual_png/office/index.html"
+    },
+    {
+      "@id": "library:cisco_safe",
+      "@type": "ShapeLibrary",
+      "name": "cisco_safe",
+      "domain": "network_infrastructure",
+      "shapeCount": 495,
+      "browsePath": "01_官方Shapes_PNG/individual_png/cisco_safe/index.html"
+    },
+    {
+      "@id": "library:electrical",
+      "@type": "ShapeLibrary",
+      "name": "electrical",
+      "domain": "engineering",
+      "shapeCount": 411,
+      "browsePath": "01_官方Shapes_PNG/individual_png/electrical/index.html"
+    },
+    {
+      "@id": "library:veeam",
+      "@type": "ShapeLibrary",
+      "name": "veeam",
+      "domain": "network_infrastructure",
+      "shapeCount": 356,
+      "browsePath": "01_官方Shapes_PNG/individual_png/veeam/index.html"
+    },
+    {
+      "@id": "library:aws3",
+      "@type": "ShapeLibrary",
+      "name": "aws3",
+      "domain": "cloud",
+      "shapeCount": 317,
+      "browsePath": "01_官方Shapes_PNG/individual_png/aws3/index.html"
+    },
+    {
+      "@id": "library:alibaba_cloud",
+      "@type": "ShapeLibrary",
+      "name": "alibaba_cloud",
+      "domain": "cloud",
+      "shapeCount": 310,
+      "browsePath": "01_官方Shapes_PNG/individual_png/alibaba_cloud/index.html"
+    },
+    {
+      "@id": "library:cisco",
+      "@type": "ShapeLibrary",
+      "name": "cisco",
+      "domain": "network_infrastructure",
+      "shapeCount": 291,
+      "browsePath": "01_官方Shapes_PNG/individual_png/cisco/index.html"
+    },
+    {
+      "@id": "library:rack",
+      "@type": "ShapeLibrary",
+      "name": "rack",
+      "domain": "network_infrastructure",
+      "shapeCount": 289,
+      "browsePath": "01_官方Shapes_PNG/individual_png/rack/index.html"
+    },
+    {
+      "@id": "library:image",
+      "@type": "ShapeLibrary",
+      "name": "image",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 268,
+      "browsePath": "01_官方Shapes_PNG/individual_png/image/index.html"
+    },
+    {
+      "@id": "library:fluid_power",
+      "@type": "ShapeLibrary",
+      "name": "fluid_power",
+      "domain": "engineering",
+      "shapeCount": 246,
+      "browsePath": "01_官方Shapes_PNG/individual_png/fluid_power/index.html"
+    },
+    {
+      "@id": "library:veeam2",
+      "@type": "ShapeLibrary",
+      "name": "veeam2",
+      "domain": "network_infrastructure",
+      "shapeCount": 246,
+      "browsePath": "01_官方Shapes_PNG/individual_png/veeam2/index.html"
+    },
+    {
+      "@id": "library:pid",
+      "@type": "ShapeLibrary",
+      "name": "pid",
+      "domain": "engineering",
+      "shapeCount": 214,
+      "browsePath": "01_官方Shapes_PNG/individual_png/pid/index.html"
+    },
+    {
+      "@id": "library:bpmn",
+      "@type": "ShapeLibrary",
+      "name": "bpmn",
+      "domain": "software_modeling",
+      "shapeCount": 196,
+      "browsePath": "01_官方Shapes_PNG/individual_png/bpmn/index.html"
+    },
+    {
+      "@id": "library:cisco19",
+      "@type": "ShapeLibrary",
+      "name": "cisco19",
+      "domain": "network_infrastructure",
+      "shapeCount": 195,
+      "browsePath": "01_官方Shapes_PNG/individual_png/cisco19/index.html"
+    },
+    {
+      "@id": "library:connectors",
+      "@type": "ShapeLibrary",
+      "name": "connectors",
+      "domain": "general",
+      "shapeCount": 176,
+      "browsePath": "01_官方Shapes_PNG/individual_png/connectors/index.html"
+    },
+    {
+      "@id": "library:webicons",
+      "@type": "ShapeLibrary",
+      "name": "webicons",
+      "domain": "branding",
+      "shapeCount": 175,
+      "browsePath": "01_官方Shapes_PNG/individual_png/webicons/index.html"
+    },
+    {
+      "@id": "library:weblogos",
+      "@type": "ShapeLibrary",
+      "name": "weblogos",
+      "domain": "branding",
+      "shapeCount": 174,
+      "browsePath": "01_官方Shapes_PNG/individual_png/weblogos/index.html"
+    },
+    {
+      "@id": "library:ios7",
+      "@type": "ShapeLibrary",
+      "name": "ios7",
+      "domain": "ui_mockup",
+      "shapeCount": 155,
+      "browsePath": "01_官方Shapes_PNG/individual_png/ios7/index.html"
+    },
+    {
+      "@id": "library:mscae",
+      "@type": "ShapeLibrary",
+      "name": "mscae",
+      "domain": "cloud",
+      "shapeCount": 151,
+      "browsePath": "01_官方Shapes_PNG/individual_png/mscae/index.html"
+    },
+    {
+      "@id": "library:archimate3",
+      "@type": "ShapeLibrary",
+      "name": "archimate3",
+      "domain": "software_modeling",
+      "shapeCount": 136,
+      "browsePath": "01_官方Shapes_PNG/individual_png/archimate3/index.html"
+    },
+    {
+      "@id": "library:citrix2",
+      "@type": "ShapeLibrary",
+      "name": "citrix2",
+      "domain": "network_infrastructure",
+      "shapeCount": 126,
+      "browsePath": "01_官方Shapes_PNG/individual_png/citrix2/index.html"
+    },
+    {
+      "@id": "library:sap",
+      "@type": "ShapeLibrary",
+      "name": "sap",
+      "domain": "cloud",
+      "shapeCount": 114,
+      "browsePath": "01_官方Shapes_PNG/individual_png/sap/index.html"
+    },
+    {
+      "@id": "library:gcp2",
+      "@type": "ShapeLibrary",
+      "name": "gcp2",
+      "domain": "cloud",
+      "shapeCount": 113,
+      "browsePath": "01_官方Shapes_PNG/individual_png/gcp2/index.html"
+    },
+    {
+      "@id": "library:azure",
+      "@type": "ShapeLibrary",
+      "name": "azure",
+      "domain": "cloud",
+      "shapeCount": 109,
+      "browsePath": "01_官方Shapes_PNG/individual_png/azure/index.html"
+    },
+    {
+      "@id": "library:citrix",
+      "@type": "ShapeLibrary",
+      "name": "citrix",
+      "domain": "network_infrastructure",
+      "shapeCount": 97,
+      "browsePath": "01_官方Shapes_PNG/individual_png/citrix/index.html"
+    },
+    {
+      "@id": "library:vvd",
+      "@type": "ShapeLibrary",
+      "name": "vvd",
+      "domain": "network_infrastructure",
+      "shapeCount": 97,
+      "browsePath": "01_官方Shapes_PNG/individual_png/vvd/index.html"
+    },
+    {
+      "@id": "library:salesforce",
+      "@type": "ShapeLibrary",
+      "name": "salesforce",
+      "domain": "cloud",
+      "shapeCount": 96,
+      "browsePath": "01_官方Shapes_PNG/individual_png/salesforce/index.html"
+    },
+    {
+      "@id": "library:kubernetes",
+      "@type": "ShapeLibrary",
+      "name": "kubernetes",
+      "domain": "containers_orchestration",
+      "shapeCount": 78,
+      "browsePath": "01_官方Shapes_PNG/individual_png/kubernetes/index.html"
+    },
+    {
+      "@id": "library:mockup",
+      "@type": "ShapeLibrary",
+      "name": "mockup",
+      "domain": "ui_mockup",
+      "shapeCount": 75,
+      "browsePath": "01_官方Shapes_PNG/individual_png/mockup/index.html"
+    },
+    {
+      "@id": "library:basic",
+      "@type": "ShapeLibrary",
+      "name": "basic",
+      "domain": "general",
+      "shapeCount": 72,
+      "browsePath": "01_官方Shapes_PNG/individual_png/basic/index.html"
+    },
+    {
+      "@id": "library:openstack",
+      "@type": "ShapeLibrary",
+      "name": "openstack",
+      "domain": "cloud",
+      "shapeCount": 72,
+      "browsePath": "01_官方Shapes_PNG/individual_png/openstack/index.html"
+    },
+    {
+      "@id": "library:floorplan",
+      "@type": "ShapeLibrary",
+      "name": "floorplan",
+      "domain": "engineering",
+      "shapeCount": 66,
+      "browsePath": "01_官方Shapes_PNG/individual_png/floorplan/index.html"
+    },
+    {
+      "@id": "library:aws3d",
+      "@type": "ShapeLibrary",
+      "name": "aws3d",
+      "domain": "cloud",
+      "shapeCount": 62,
+      "browsePath": "01_官方Shapes_PNG/individual_png/aws3d/index.html"
+    },
+    {
+      "@id": "library:networks",
+      "@type": "ShapeLibrary",
+      "name": "networks",
+      "domain": "network_infrastructure",
+      "shapeCount": 58,
+      "browsePath": "01_官方Shapes_PNG/individual_png/networks/index.html"
+    },
+    {
+      "@id": "library:networks2",
+      "@type": "ShapeLibrary",
+      "name": "networks2",
+      "domain": "network_infrastructure",
+      "shapeCount": 57,
+      "browsePath": "01_官方Shapes_PNG/individual_png/networks2/index.html"
+    },
+    {
+      "@id": "library:gmdl",
+      "@type": "ShapeLibrary",
+      "name": "gmdl",
+      "domain": "ui_mockup",
+      "shapeCount": 55,
+      "browsePath": "01_官方Shapes_PNG/individual_png/gmdl/index.html"
+    },
+    {
+      "@id": "library:cabinets",
+      "@type": "ShapeLibrary",
+      "name": "cabinets",
+      "domain": "network_infrastructure",
+      "shapeCount": 53,
+      "browsePath": "01_官方Shapes_PNG/individual_png/cabinets/index.html"
+    },
+    {
+      "@id": "library:sitemap",
+      "@type": "ShapeLibrary",
+      "name": "sitemap",
+      "domain": "software_modeling",
+      "shapeCount": 50,
+      "browsePath": "01_官方Shapes_PNG/individual_png/sitemap/index.html"
+    },
+    {
+      "@id": "library:ios",
+      "@type": "ShapeLibrary",
+      "name": "ios",
+      "domain": "ui_mockup",
+      "shapeCount": 49,
+      "browsePath": "01_官方Shapes_PNG/individual_png/ios/index.html"
+    },
+    {
+      "@id": "library:bootstrap",
+      "@type": "ShapeLibrary",
+      "name": "bootstrap",
+      "domain": "ui_mockup",
+      "shapeCount": 44,
+      "browsePath": "01_官方Shapes_PNG/individual_png/bootstrap/index.html"
+    },
+    {
+      "@id": "library:android",
+      "@type": "ShapeLibrary",
+      "name": "android",
+      "domain": "ui_mockup",
+      "shapeCount": 43,
+      "browsePath": "01_官方Shapes_PNG/individual_png/android/index.html"
+    },
+    {
+      "@id": "library:archimate",
+      "@type": "ShapeLibrary",
+      "name": "archimate",
+      "domain": "software_modeling",
+      "shapeCount": 43,
+      "browsePath": "01_官方Shapes_PNG/individual_png/archimate/index.html"
+    },
+    {
+      "@id": "library:eip",
+      "@type": "ShapeLibrary",
+      "name": "eip",
+      "domain": "software_modeling",
+      "shapeCount": 42,
+      "browsePath": "01_官方Shapes_PNG/individual_png/eip/index.html"
+    },
+    {
+      "@id": "library:rect",
+      "@type": "ShapeLibrary",
+      "name": "rect",
+      "domain": "general",
+      "shapeCount": 38,
+      "browsePath": "01_官方Shapes_PNG/individual_png/rect/index.html"
+    },
+    {
+      "@id": "library:arrows2",
+      "@type": "ShapeLibrary",
+      "name": "arrows2",
+      "domain": "general",
+      "shapeCount": 35,
+      "browsePath": "01_官方Shapes_PNG/individual_png/arrows2/index.html"
+    },
+    {
+      "@id": "library:lean_mapping",
+      "@type": "ShapeLibrary",
+      "name": "lean_mapping",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 34,
+      "browsePath": "01_官方Shapes_PNG/individual_png/lean_mapping/index.html"
+    },
+    {
+      "@id": "library:pid2valves",
+      "@type": "ShapeLibrary",
+      "name": "pid2valves",
+      "domain": "engineering",
+      "shapeCount": 34,
+      "browsePath": "01_官方Shapes_PNG/individual_png/pid2valves/index.html"
+    },
+    {
+      "@id": "library:sysml",
+      "@type": "ShapeLibrary",
+      "name": "sysml",
+      "domain": "software_modeling",
+      "shapeCount": 27,
+      "browsePath": "01_官方Shapes_PNG/individual_png/sysml/index.html"
+    },
+    {
+      "@id": "library:infographic",
+      "@type": "ShapeLibrary",
+      "name": "infographic",
+      "domain": "ui_mockup",
+      "shapeCount": 26,
+      "browsePath": "01_官方Shapes_PNG/individual_png/infographic/index.html"
+    },
+    {
+      "@id": "library:flowchart",
+      "@type": "ShapeLibrary",
+      "name": "flowchart",
+      "domain": "general",
+      "shapeCount": 24,
+      "browsePath": "01_官方Shapes_PNG/individual_png/flowchart/index.html"
+    },
+    {
+      "@id": "library:pid2inst",
+      "@type": "ShapeLibrary",
+      "name": "pid2inst",
+      "domain": "engineering",
+      "shapeCount": 24,
+      "browsePath": "01_官方Shapes_PNG/individual_png/pid2inst/index.html"
+    },
+    {
+      "@id": "library:ellipse",
+      "@type": "ShapeLibrary",
+      "name": "ellipse",
+      "domain": "general",
+      "shapeCount": 23,
+      "browsePath": "01_官方Shapes_PNG/individual_png/ellipse/index.html"
+    },
+    {
+      "@id": "library:partialRectangle",
+      "@type": "ShapeLibrary",
+      "name": "partialRectangle",
+      "domain": "general",
+      "shapeCount": 10,
+      "browsePath": "01_官方Shapes_PNG/individual_png/partialRectangle/index.html"
+    },
+    {
+      "@id": "library:pid2misc",
+      "@type": "ShapeLibrary",
+      "name": "pid2misc",
+      "domain": "engineering",
+      "shapeCount": 10,
+      "browsePath": "01_官方Shapes_PNG/individual_png/pid2misc/index.html"
+    },
+    {
+      "@id": "library:rackGeneral",
+      "@type": "ShapeLibrary",
+      "name": "rackGeneral",
+      "domain": "network_infrastructure",
+      "shapeCount": 9,
+      "browsePath": "01_官方Shapes_PNG/individual_png/rackGeneral/index.html"
+    },
+    {
+      "@id": "library:ibm",
+      "@type": "ShapeLibrary",
+      "name": "ibm",
+      "domain": "cloud",
+      "shapeCount": 8,
+      "browsePath": "01_官方Shapes_PNG/individual_png/ibm/index.html"
+    },
+    {
+      "@id": "library:ios7ui",
+      "@type": "ShapeLibrary",
+      "name": "ios7ui",
+      "domain": "ui_mockup",
+      "shapeCount": 8,
+      "browsePath": "01_官方Shapes_PNG/individual_png/ios7ui/index.html"
+    },
+    {
+      "@id": "library:folder",
+      "@type": "ShapeLibrary",
+      "name": "folder",
+      "domain": "general",
+      "shapeCount": 6,
+      "browsePath": "01_官方Shapes_PNG/individual_png/folder/index.html"
+    },
+    {
+      "@id": "library:note",
+      "@type": "ShapeLibrary",
+      "name": "note",
+      "domain": "general",
+      "shapeCount": 6,
+      "browsePath": "01_官方Shapes_PNG/individual_png/note/index.html"
+    },
+    {
+      "@id": "library:uml25",
+      "@type": "ShapeLibrary",
+      "name": "uml25",
+      "domain": "software_modeling",
+      "shapeCount": 6,
+      "browsePath": "01_官方Shapes_PNG/individual_png/uml25/index.html"
+    },
+    {
+      "@id": "library:dfd",
+      "@type": "ShapeLibrary",
+      "name": "dfd",
+      "domain": "software_modeling",
+      "shapeCount": 5,
+      "browsePath": "01_官方Shapes_PNG/individual_png/dfd/index.html"
+    },
+    {
+      "@id": "library:umlLifeline",
+      "@type": "ShapeLibrary",
+      "name": "umlLifeline",
+      "domain": "software_modeling",
+      "shapeCount": 5,
+      "browsePath": "01_官方Shapes_PNG/individual_png/umlLifeline/index.html"
+    },
+    {
+      "@id": "library:cloud",
+      "@type": "ShapeLibrary",
+      "name": "cloud",
+      "domain": "general",
+      "shapeCount": 4,
+      "browsePath": "01_官方Shapes_PNG/individual_png/cloud/index.html"
+    },
+    {
+      "@id": "library:dimension",
+      "@type": "ShapeLibrary",
+      "name": "dimension",
+      "domain": "general",
+      "shapeCount": 4,
+      "browsePath": "01_官方Shapes_PNG/individual_png/dimension/index.html"
+    },
+    {
+      "@id": "library:doubleEllipse",
+      "@type": "ShapeLibrary",
+      "name": "doubleEllipse",
+      "domain": "general",
+      "shapeCount": 4,
+      "browsePath": "01_官方Shapes_PNG/individual_png/doubleEllipse/index.html"
+    },
+    {
+      "@id": "library:ext",
+      "@type": "ShapeLibrary",
+      "name": "ext",
+      "domain": "general",
+      "shapeCount": 4,
+      "browsePath": "01_官方Shapes_PNG/individual_png/ext/index.html"
+    },
+    {
+      "@id": "library:flexArrow",
+      "@type": "ShapeLibrary",
+      "name": "flexArrow",
+      "domain": "general",
+      "shapeCount": 4,
+      "browsePath": "01_官方Shapes_PNG/individual_png/flexArrow/index.html"
+    },
+    {
+      "@id": "library:singleArrow",
+      "@type": "ShapeLibrary",
+      "name": "singleArrow",
+      "domain": "general",
+      "shapeCount": 4,
+      "browsePath": "01_官方Shapes_PNG/individual_png/singleArrow/index.html"
+    },
+    {
+      "@id": "library:hexagon",
+      "@type": "ShapeLibrary",
+      "name": "hexagon",
+      "domain": "general",
+      "shapeCount": 3,
+      "browsePath": "01_官方Shapes_PNG/individual_png/hexagon/index.html"
+    },
+    {
+      "@id": "library:link",
+      "@type": "ShapeLibrary",
+      "name": "link",
+      "domain": "general",
+      "shapeCount": 3,
+      "browsePath": "01_官方Shapes_PNG/individual_png/link/index.html"
+    },
+    {
+      "@id": "library:manualInput",
+      "@type": "ShapeLibrary",
+      "name": "manualInput",
+      "domain": "general",
+      "shapeCount": 3,
+      "browsePath": "01_官方Shapes_PNG/individual_png/manualInput/index.html"
+    },
+    {
+      "@id": "library:parallelogram",
+      "@type": "ShapeLibrary",
+      "name": "parallelogram",
+      "domain": "general",
+      "shapeCount": 3,
+      "browsePath": "01_官方Shapes_PNG/individual_png/parallelogram/index.html"
+    },
+    {
+      "@id": "library:rhombus",
+      "@type": "ShapeLibrary",
+      "name": "rhombus",
+      "domain": "general",
+      "shapeCount": 3,
+      "browsePath": "01_官方Shapes_PNG/individual_png/rhombus/index.html"
+    },
+    {
+      "@id": "library:smileyFace",
+      "@type": "ShapeLibrary",
+      "name": "smileyFace",
+      "domain": "general",
+      "shapeCount": 3,
+      "browsePath": "01_官方Shapes_PNG/individual_png/smileyFace/index.html"
+    },
+    {
+      "@id": "library:trapezoid",
+      "@type": "ShapeLibrary",
+      "name": "trapezoid",
+      "domain": "general",
+      "shapeCount": 3,
+      "browsePath": "01_官方Shapes_PNG/individual_png/trapezoid/index.html"
+    },
+    {
+      "@id": "library:umlActor",
+      "@type": "ShapeLibrary",
+      "name": "umlActor",
+      "domain": "software_modeling",
+      "shapeCount": 3,
+      "browsePath": "01_官方Shapes_PNG/individual_png/umlActor/index.html"
+    },
+    {
+      "@id": "library:card",
+      "@type": "ShapeLibrary",
+      "name": "card",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/card/index.html"
+    },
+    {
+      "@id": "library:collate",
+      "@type": "ShapeLibrary",
+      "name": "collate",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/collate/index.html"
+    },
+    {
+      "@id": "library:crossbar",
+      "@type": "ShapeLibrary",
+      "name": "crossbar",
+      "domain": "general",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/crossbar/index.html"
+    },
+    {
+      "@id": "library:cube",
+      "@type": "ShapeLibrary",
+      "name": "cube",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/cube/index.html"
+    },
+    {
+      "@id": "library:curlyBracket",
+      "@type": "ShapeLibrary",
+      "name": "curlyBracket",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/curlyBracket/index.html"
+    },
+    {
+      "@id": "library:cylinder3",
+      "@type": "ShapeLibrary",
+      "name": "cylinder3",
+      "domain": "general",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/cylinder3/index.html"
+    },
+    {
+      "@id": "library:datastore",
+      "@type": "ShapeLibrary",
+      "name": "datastore",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/datastore/index.html"
+    },
+    {
+      "@id": "library:document",
+      "@type": "ShapeLibrary",
+      "name": "document",
+      "domain": "general",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/document/index.html"
+    },
+    {
+      "@id": "library:doubleArrow",
+      "@type": "ShapeLibrary",
+      "name": "doubleArrow",
+      "domain": "general",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/doubleArrow/index.html"
+    },
+    {
+      "@id": "library:endState",
+      "@type": "ShapeLibrary",
+      "name": "endState",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/endState/index.html"
+    },
+    {
+      "@id": "library:internalStorage",
+      "@type": "ShapeLibrary",
+      "name": "internalStorage",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/internalStorage/index.html"
+    },
+    {
+      "@id": "library:lineEllipse",
+      "@type": "ShapeLibrary",
+      "name": "lineEllipse",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/lineEllipse/index.html"
+    },
+    {
+      "@id": "library:offPageConnector",
+      "@type": "ShapeLibrary",
+      "name": "offPageConnector",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/offPageConnector/index.html"
+    },
+    {
+      "@id": "library:or",
+      "@type": "ShapeLibrary",
+      "name": "or",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/or/index.html"
+    },
+    {
+      "@id": "library:process",
+      "@type": "ShapeLibrary",
+      "name": "process",
+      "domain": "general",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/process/index.html"
+    },
+    {
+      "@id": "library:requiredInterface",
+      "@type": "ShapeLibrary",
+      "name": "requiredInterface",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/requiredInterface/index.html"
+    },
+    {
+      "@id": "library:sumEllipse",
+      "@type": "ShapeLibrary",
+      "name": "sumEllipse",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/sumEllipse/index.html"
+    },
+    {
+      "@id": "library:tape",
+      "@type": "ShapeLibrary",
+      "name": "tape",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/tape/index.html"
+    },
+    {
+      "@id": "library:triangle",
+      "@type": "ShapeLibrary",
+      "name": "triangle",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/triangle/index.html"
+    },
+    {
+      "@id": "library:umlDestroy",
+      "@type": "ShapeLibrary",
+      "name": "umlDestroy",
+      "domain": "software_modeling",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/umlDestroy/index.html"
+    },
+    {
+      "@id": "library:umlFrame",
+      "@type": "ShapeLibrary",
+      "name": "umlFrame",
+      "domain": "software_modeling",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/umlFrame/index.html"
+    },
+    {
+      "@id": "library:xor",
+      "@type": "ShapeLibrary",
+      "name": "xor",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 2,
+      "browsePath": "01_官方Shapes_PNG/individual_png/xor/index.html"
+    },
+    {
+      "@id": "library:actor",
+      "@type": "ShapeLibrary",
+      "name": "actor",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/actor/index.html"
+    },
+    {
+      "@id": "library:associativeEntity",
+      "@type": "ShapeLibrary",
+      "name": "associativeEntity",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/associativeEntity/index.html"
+    },
+    {
+      "@id": "library:callout",
+      "@type": "ShapeLibrary",
+      "name": "callout",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/callout/index.html"
+    },
+    {
+      "@id": "library:corner",
+      "@type": "ShapeLibrary",
+      "name": "corner",
+      "domain": "general",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/corner/index.html"
+    },
+    {
+      "@id": "library:cross",
+      "@type": "ShapeLibrary",
+      "name": "cross",
+      "domain": "general",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/cross/index.html"
+    },
+    {
+      "@id": "library:curvedText",
+      "@type": "ShapeLibrary",
+      "name": "curvedText",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/curvedText/index.html"
+    },
+    {
+      "@id": "library:cylinder",
+      "@type": "ShapeLibrary",
+      "name": "cylinder",
+      "domain": "general",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/cylinder/index.html"
+    },
+    {
+      "@id": "library:dataStorage",
+      "@type": "ShapeLibrary",
+      "name": "dataStorage",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/dataStorage/index.html"
+    },
+    {
+      "@id": "library:delay",
+      "@type": "ShapeLibrary",
+      "name": "delay",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/delay/index.html"
+    },
+    {
+      "@id": "library:display",
+      "@type": "ShapeLibrary",
+      "name": "display",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/display/index.html"
+    },
+    {
+      "@id": "library:filledEdge",
+      "@type": "ShapeLibrary",
+      "name": "filledEdge",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/filledEdge/index.html"
+    },
+    {
+      "@id": "library:gitTag",
+      "@type": "ShapeLibrary",
+      "name": "gitTag",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/gitTag/index.html"
+    },
+    {
+      "@id": "library:isoCube2",
+      "@type": "ShapeLibrary",
+      "name": "isoCube2",
+      "domain": "general",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/isoCube2/index.html"
+    },
+    {
+      "@id": "library:isoRectangle",
+      "@type": "ShapeLibrary",
+      "name": "isoRectangle",
+      "domain": "general",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/isoRectangle/index.html"
+    },
+    {
+      "@id": "library:loopLimit",
+      "@type": "ShapeLibrary",
+      "name": "loopLimit",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/loopLimit/index.html"
+    },
+    {
+      "@id": "library:message",
+      "@type": "ShapeLibrary",
+      "name": "message",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/message/index.html"
+    },
+    {
+      "@id": "library:mindmapBang",
+      "@type": "ShapeLibrary",
+      "name": "mindmapBang",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/mindmapBang/index.html"
+    },
+    {
+      "@id": "library:module",
+      "@type": "ShapeLibrary",
+      "name": "module",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/module/index.html"
+    },
+    {
+      "@id": "library:note2",
+      "@type": "ShapeLibrary",
+      "name": "note2",
+      "domain": "general",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/note2/index.html"
+    },
+    {
+      "@id": "library:orEllipse",
+      "@type": "ShapeLibrary",
+      "name": "orEllipse",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/orEllipse/index.html"
+    },
+    {
+      "@id": "library:process2",
+      "@type": "ShapeLibrary",
+      "name": "process2",
+      "domain": "general",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/process2/index.html"
+    },
+    {
+      "@id": "library:providedRequiredInterface",
+      "@type": "ShapeLibrary",
+      "name": "providedRequiredInterface",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/providedRequiredInterface/index.html"
+    },
+    {
+      "@id": "library:rectangle",
+      "@type": "ShapeLibrary",
+      "name": "rectangle",
+      "domain": "general",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/rectangle/index.html"
+    },
+    {
+      "@id": "library:sortShape",
+      "@type": "ShapeLibrary",
+      "name": "sortShape",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/sortShape/index.html"
+    },
+    {
+      "@id": "library:step",
+      "@type": "ShapeLibrary",
+      "name": "step",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/step/index.html"
+    },
+    {
+      "@id": "library:switch",
+      "@type": "ShapeLibrary",
+      "name": "switch",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/switch/index.html"
+    },
+    {
+      "@id": "library:tapeData",
+      "@type": "ShapeLibrary",
+      "name": "tapeData",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/tapeData/index.html"
+    },
+    {
+      "@id": "library:tee",
+      "@type": "ShapeLibrary",
+      "name": "tee",
+      "domain": "general",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/tee/index.html"
+    },
+    {
+      "@id": "library:umlBoundary",
+      "@type": "ShapeLibrary",
+      "name": "umlBoundary",
+      "domain": "software_modeling",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/umlBoundary/index.html"
+    },
+    {
+      "@id": "library:umlControl",
+      "@type": "ShapeLibrary",
+      "name": "umlControl",
+      "domain": "software_modeling",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/umlControl/index.html"
+    },
+    {
+      "@id": "library:umlEntity",
+      "@type": "ShapeLibrary",
+      "name": "umlEntity",
+      "domain": "software_modeling",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/umlEntity/index.html"
+    },
+    {
+      "@id": "library:umlState",
+      "@type": "ShapeLibrary",
+      "name": "umlState",
+      "domain": "software_modeling",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/umlState/index.html"
+    },
+    {
+      "@id": "library:waypoint",
+      "@type": "ShapeLibrary",
+      "name": "waypoint",
+      "domain": "general",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/waypoint/index.html"
+    },
+    {
+      "@id": "library:wire",
+      "@type": "ShapeLibrary",
+      "name": "wire",
+      "domain": "specialized_or_vendor",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/wire/index.html"
+    },
+    {
+      "@id": "library:zigzag",
+      "@type": "ShapeLibrary",
+      "name": "zigzag",
+      "domain": "general",
+      "shapeCount": 1,
+      "browsePath": "01_官方Shapes_PNG/individual_png/zigzag/index.html"
+    },
+    {
+      "@id": "icon:ace",
+      "@type": "Icon",
+      "name": "ace",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/ace.svg"
+    },
+    {
+      "@id": "icon:adobe",
+      "@type": "Icon",
+      "name": "adobe",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/adobe.svg"
+    },
+    {
+      "@id": "icon:adobefirefly",
+      "@type": "Icon",
+      "name": "adobefirefly",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/adobefirefly.svg"
+    },
+    {
+      "@id": "icon:agentvoice",
+      "@type": "Icon",
+      "name": "agentvoice",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/agentvoice.svg"
+    },
+    {
+      "@id": "icon:agui",
+      "@type": "Icon",
+      "name": "agui",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/agui.svg"
+    },
+    {
+      "@id": "icon:ai2",
+      "@type": "Icon",
+      "name": "ai2",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/ai2.svg"
+    },
+    {
+      "@id": "icon:ai21",
+      "@type": "Icon",
+      "name": "ai21",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/ai21.svg"
+    },
+    {
+      "@id": "icon:ai302",
+      "@type": "Icon",
+      "name": "ai302",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/ai302.svg"
+    },
+    {
+      "@id": "icon:ai360",
+      "@type": "Icon",
+      "name": "ai360",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/ai360.svg"
+    },
+    {
+      "@id": "icon:aihubmix",
+      "@type": "Icon",
+      "name": "aihubmix",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/aihubmix.svg"
+    },
+    {
+      "@id": "icon:aimass",
+      "@type": "Icon",
+      "name": "aimass",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/aimass.svg"
+    },
+    {
+      "@id": "icon:aionlabs",
+      "@type": "Icon",
+      "name": "aionlabs",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/aionlabs.svg"
+    },
+    {
+      "@id": "icon:airjelly",
+      "@type": "Icon",
+      "name": "airjelly",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/airjelly.svg"
+    },
+    {
+      "@id": "icon:aistudio",
+      "@type": "Icon",
+      "name": "aistudio",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/aistudio.svg"
+    },
+    {
+      "@id": "icon:akashchat",
+      "@type": "Icon",
+      "name": "akashchat",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/akashchat.svg"
+    },
+    {
+      "@id": "icon:alephalpha",
+      "@type": "Icon",
+      "name": "alephalpha",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/alephalpha.svg"
+    },
+    {
+      "@id": "icon:alibaba",
+      "@type": "Icon",
+      "name": "alibaba",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/alibaba.svg"
+    },
+    {
+      "@id": "icon:alibabacloud",
+      "@type": "Icon",
+      "name": "alibabacloud",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/alibabacloud.svg"
+    },
+    {
+      "@id": "icon:amp",
+      "@type": "Icon",
+      "name": "amp",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/amp.svg"
+    },
+    {
+      "@id": "icon:antgroup",
+      "@type": "Icon",
+      "name": "antgroup",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/antgroup.svg"
+    },
+    {
+      "@id": "icon:anthropic",
+      "@type": "Icon",
+      "name": "anthropic",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/anthropic.svg"
+    },
+    {
+      "@id": "icon:antigravity",
+      "@type": "Icon",
+      "name": "antigravity",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/antigravity.svg"
+    },
+    {
+      "@id": "icon:anyscale",
+      "@type": "Icon",
+      "name": "anyscale",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/anyscale.svg"
+    },
+    {
+      "@id": "icon:apertis",
+      "@type": "Icon",
+      "name": "apertis",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/apertis.svg"
+    },
+    {
+      "@id": "icon:apple",
+      "@type": "Icon",
+      "name": "apple",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/apple.svg"
+    },
+    {
+      "@id": "icon:arcee",
+      "@type": "Icon",
+      "name": "arcee",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/arcee.svg"
+    },
+    {
+      "@id": "icon:askverdict",
+      "@type": "Icon",
+      "name": "askverdict",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/askverdict.svg"
+    },
+    {
+      "@id": "icon:assemblyai",
+      "@type": "Icon",
+      "name": "assemblyai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/assemblyai.svg"
+    },
+    {
+      "@id": "icon:atlascloud",
+      "@type": "Icon",
+      "name": "atlascloud",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/atlascloud.svg"
+    },
+    {
+      "@id": "icon:automatic",
+      "@type": "Icon",
+      "name": "automatic",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/automatic.svg"
+    },
+    {
+      "@id": "icon:aws",
+      "@type": "Icon",
+      "name": "aws",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/aws.svg"
+    },
+    {
+      "@id": "icon:aya",
+      "@type": "Icon",
+      "name": "aya",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/aya.svg"
+    },
+    {
+      "@id": "icon:azure",
+      "@type": "Icon",
+      "name": "azure",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/azure.svg"
+    },
+    {
+      "@id": "icon:azureai",
+      "@type": "Icon",
+      "name": "azureai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/azureai.svg"
+    },
+    {
+      "@id": "icon:baai",
+      "@type": "Icon",
+      "name": "baai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/baai.svg"
+    },
+    {
+      "@id": "icon:baichuan",
+      "@type": "Icon",
+      "name": "baichuan",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/baichuan.svg"
+    },
+    {
+      "@id": "icon:baidu",
+      "@type": "Icon",
+      "name": "baidu",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/baidu.svg"
+    },
+    {
+      "@id": "icon:baiducloud",
+      "@type": "Icon",
+      "name": "baiducloud",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/baiducloud.svg"
+    },
+    {
+      "@id": "icon:bailian",
+      "@type": "Icon",
+      "name": "bailian",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/bailian.svg"
+    },
+    {
+      "@id": "icon:baseten",
+      "@type": "Icon",
+      "name": "baseten",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/baseten.svg"
+    },
+    {
+      "@id": "icon:bedrock",
+      "@type": "Icon",
+      "name": "bedrock",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/bedrock.svg"
+    },
+    {
+      "@id": "icon:bfl",
+      "@type": "Icon",
+      "name": "bfl",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/bfl.svg"
+    },
+    {
+      "@id": "icon:bilibili",
+      "@type": "Icon",
+      "name": "bilibili",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/bilibili.svg"
+    },
+    {
+      "@id": "icon:bilibiliindex",
+      "@type": "Icon",
+      "name": "bilibiliindex",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/bilibiliindex.svg"
+    },
+    {
+      "@id": "icon:bing",
+      "@type": "Icon",
+      "name": "bing",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/bing.svg"
+    },
+    {
+      "@id": "icon:briaai",
+      "@type": "Icon",
+      "name": "briaai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/briaai.svg"
+    },
+    {
+      "@id": "icon:burncloud",
+      "@type": "Icon",
+      "name": "burncloud",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/burncloud.svg"
+    },
+    {
+      "@id": "icon:bytedance",
+      "@type": "Icon",
+      "name": "bytedance",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/bytedance.svg"
+    },
+    {
+      "@id": "icon:capcut",
+      "@type": "Icon",
+      "name": "capcut",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/capcut.svg"
+    },
+    {
+      "@id": "icon:cassandra",
+      "@type": "Icon",
+      "name": "cassandra",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/cassandra.svg"
+    },
+    {
+      "@id": "icon:centml",
+      "@type": "Icon",
+      "name": "centml",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/centml.svg"
+    },
+    {
+      "@id": "icon:cerebras",
+      "@type": "Icon",
+      "name": "cerebras",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/cerebras.svg"
+    },
+    {
+      "@id": "icon:chatglm",
+      "@type": "Icon",
+      "name": "chatglm",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/chatglm.svg"
+    },
+    {
+      "@id": "icon:cherrystudio",
+      "@type": "Icon",
+      "name": "cherrystudio",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/cherrystudio.svg"
+    },
+    {
+      "@id": "icon:civitai",
+      "@type": "Icon",
+      "name": "civitai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/civitai.svg"
+    },
+    {
+      "@id": "icon:civitai-text",
+      "@type": "Icon",
+      "name": "civitai-text",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/civitai-text.svg"
+    },
+    {
+      "@id": "icon:claude",
+      "@type": "Icon",
+      "name": "claude",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/claude.svg"
+    },
+    {
+      "@id": "icon:claudecode",
+      "@type": "Icon",
+      "name": "claudecode",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/claudecode.svg"
+    },
+    {
+      "@id": "icon:clickhouse",
+      "@type": "Icon",
+      "name": "clickhouse",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/clickhouse.svg"
+    },
+    {
+      "@id": "icon:cline",
+      "@type": "Icon",
+      "name": "cline",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/cline.svg"
+    },
+    {
+      "@id": "icon:clipdrop",
+      "@type": "Icon",
+      "name": "clipdrop",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/clipdrop.svg"
+    },
+    {
+      "@id": "icon:cloudflare",
+      "@type": "Icon",
+      "name": "cloudflare",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/cloudflare.svg"
+    },
+    {
+      "@id": "icon:codebuddy",
+      "@type": "Icon",
+      "name": "codebuddy",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/codebuddy.svg"
+    },
+    {
+      "@id": "icon:codeflicker",
+      "@type": "Icon",
+      "name": "codeflicker",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/codeflicker.svg"
+    },
+    {
+      "@id": "icon:codegeex",
+      "@type": "Icon",
+      "name": "codegeex",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/codegeex.svg"
+    },
+    {
+      "@id": "icon:codex",
+      "@type": "Icon",
+      "name": "codex",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/codex.svg"
+    },
+    {
+      "@id": "icon:cogvideo",
+      "@type": "Icon",
+      "name": "cogvideo",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/cogvideo.svg"
+    },
+    {
+      "@id": "icon:cogview",
+      "@type": "Icon",
+      "name": "cogview",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/cogview.svg"
+    },
+    {
+      "@id": "icon:cohere",
+      "@type": "Icon",
+      "name": "cohere",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/cohere.svg"
+    },
+    {
+      "@id": "icon:colab",
+      "@type": "Icon",
+      "name": "colab",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/colab.svg"
+    },
+    {
+      "@id": "icon:cometapi",
+      "@type": "Icon",
+      "name": "cometapi",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/cometapi.svg"
+    },
+    {
+      "@id": "icon:comfyui",
+      "@type": "Icon",
+      "name": "comfyui",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/comfyui.svg"
+    },
+    {
+      "@id": "icon:commanda",
+      "@type": "Icon",
+      "name": "commanda",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/commanda.svg"
+    },
+    {
+      "@id": "icon:copilot",
+      "@type": "Icon",
+      "name": "copilot",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/copilot.svg"
+    },
+    {
+      "@id": "icon:copilotkit",
+      "@type": "Icon",
+      "name": "copilotkit",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/copilotkit.svg"
+    },
+    {
+      "@id": "icon:coqui",
+      "@type": "Icon",
+      "name": "coqui",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/coqui.svg"
+    },
+    {
+      "@id": "icon:couchbase",
+      "@type": "Icon",
+      "name": "couchbase",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/couchbase.svg"
+    },
+    {
+      "@id": "icon:coze",
+      "@type": "Icon",
+      "name": "coze",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/coze.svg"
+    },
+    {
+      "@id": "icon:crewai",
+      "@type": "Icon",
+      "name": "crewai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/crewai.svg"
+    },
+    {
+      "@id": "icon:crusoe",
+      "@type": "Icon",
+      "name": "crusoe",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/crusoe.svg"
+    },
+    {
+      "@id": "icon:cursor",
+      "@type": "Icon",
+      "name": "cursor",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/cursor.svg"
+    },
+    {
+      "@id": "icon:cybercut",
+      "@type": "Icon",
+      "name": "cybercut",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/cybercut.svg"
+    },
+    {
+      "@id": "icon:dalle",
+      "@type": "Icon",
+      "name": "dalle",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/dalle.svg"
+    },
+    {
+      "@id": "icon:databricks",
+      "@type": "Icon",
+      "name": "databricks",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/databricks.svg"
+    },
+    {
+      "@id": "icon:dbrx",
+      "@type": "Icon",
+      "name": "dbrx",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/dbrx.svg"
+    },
+    {
+      "@id": "icon:deepai",
+      "@type": "Icon",
+      "name": "deepai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/deepai.svg"
+    },
+    {
+      "@id": "icon:deepcogito",
+      "@type": "Icon",
+      "name": "deepcogito",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/deepcogito.svg"
+    },
+    {
+      "@id": "icon:deepinfra",
+      "@type": "Icon",
+      "name": "deepinfra",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/deepinfra.svg"
+    },
+    {
+      "@id": "icon:deepl",
+      "@type": "Icon",
+      "name": "deepl",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/deepl.svg"
+    },
+    {
+      "@id": "icon:deepmind",
+      "@type": "Icon",
+      "name": "deepmind",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/deepmind.svg"
+    },
+    {
+      "@id": "icon:deepseek",
+      "@type": "Icon",
+      "name": "deepseek",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/deepseek.svg"
+    },
+    {
+      "@id": "icon:devin",
+      "@type": "Icon",
+      "name": "devin",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/devin.svg"
+    },
+    {
+      "@id": "icon:dify",
+      "@type": "Icon",
+      "name": "dify",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/dify.svg"
+    },
+    {
+      "@id": "icon:doc2x",
+      "@type": "Icon",
+      "name": "doc2x",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/doc2x.svg"
+    },
+    {
+      "@id": "icon:docsearch",
+      "@type": "Icon",
+      "name": "docsearch",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/docsearch.svg"
+    },
+    {
+      "@id": "icon:dolphin",
+      "@type": "Icon",
+      "name": "dolphin",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/dolphin.svg"
+    },
+    {
+      "@id": "icon:doubao",
+      "@type": "Icon",
+      "name": "doubao",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/doubao.svg"
+    },
+    {
+      "@id": "icon:dreammachine",
+      "@type": "Icon",
+      "name": "dreammachine",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/dreammachine.svg"
+    },
+    {
+      "@id": "icon:duckdb",
+      "@type": "Icon",
+      "name": "duckdb",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/duckdb.svg"
+    },
+    {
+      "@id": "icon:elasticsearch",
+      "@type": "Icon",
+      "name": "elasticsearch",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/elasticsearch.svg"
+    },
+    {
+      "@id": "icon:elevenlabs",
+      "@type": "Icon",
+      "name": "elevenlabs",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/elevenlabs.svg"
+    },
+    {
+      "@id": "icon:elevenx",
+      "@type": "Icon",
+      "name": "elevenx",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/elevenx.svg"
+    },
+    {
+      "@id": "icon:essentialai",
+      "@type": "Icon",
+      "name": "essentialai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/essentialai.svg"
+    },
+    {
+      "@id": "icon:exa",
+      "@type": "Icon",
+      "name": "exa",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/exa.svg"
+    },
+    {
+      "@id": "icon:fal",
+      "@type": "Icon",
+      "name": "fal",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/fal.svg"
+    },
+    {
+      "@id": "icon:fastgpt",
+      "@type": "Icon",
+      "name": "fastgpt",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/fastgpt.svg"
+    },
+    {
+      "@id": "icon:featherless",
+      "@type": "Icon",
+      "name": "featherless",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/featherless.svg"
+    },
+    {
+      "@id": "icon:figma",
+      "@type": "Icon",
+      "name": "figma",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/figma.svg"
+    },
+    {
+      "@id": "icon:fireworks",
+      "@type": "Icon",
+      "name": "fireworks",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/fireworks.svg"
+    },
+    {
+      "@id": "icon:fishaudio",
+      "@type": "Icon",
+      "name": "fishaudio",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/fishaudio.svg"
+    },
+    {
+      "@id": "icon:flora",
+      "@type": "Icon",
+      "name": "flora",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/flora.svg"
+    },
+    {
+      "@id": "icon:flowith",
+      "@type": "Icon",
+      "name": "flowith",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/flowith.svg"
+    },
+    {
+      "@id": "icon:flux",
+      "@type": "Icon",
+      "name": "flux",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/flux.svg"
+    },
+    {
+      "@id": "icon:friendli",
+      "@type": "Icon",
+      "name": "friendli",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/friendli.svg"
+    },
+    {
+      "@id": "icon:gemini",
+      "@type": "Icon",
+      "name": "gemini",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/gemini.svg"
+    },
+    {
+      "@id": "icon:geminicli",
+      "@type": "Icon",
+      "name": "geminicli",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/geminicli.svg"
+    },
+    {
+      "@id": "icon:gemma",
+      "@type": "Icon",
+      "name": "gemma",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/gemma.svg"
+    },
+    {
+      "@id": "icon:giteeai",
+      "@type": "Icon",
+      "name": "giteeai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/giteeai.svg"
+    },
+    {
+      "@id": "icon:github",
+      "@type": "Icon",
+      "name": "github",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/github.svg"
+    },
+    {
+      "@id": "icon:githubcopilot",
+      "@type": "Icon",
+      "name": "githubcopilot",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/githubcopilot.svg"
+    },
+    {
+      "@id": "icon:glama",
+      "@type": "Icon",
+      "name": "glama",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/glama.svg"
+    },
+    {
+      "@id": "icon:glif",
+      "@type": "Icon",
+      "name": "glif",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/glif.svg"
+    },
+    {
+      "@id": "icon:glmv",
+      "@type": "Icon",
+      "name": "glmv",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/glmv.svg"
+    },
+    {
+      "@id": "icon:google",
+      "@type": "Icon",
+      "name": "google",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/google.svg"
+    },
+    {
+      "@id": "icon:googlecloud",
+      "@type": "Icon",
+      "name": "googlecloud",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/googlecloud.svg"
+    },
+    {
+      "@id": "icon:goose",
+      "@type": "Icon",
+      "name": "goose",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/goose.svg"
+    },
+    {
+      "@id": "icon:gradio",
+      "@type": "Icon",
+      "name": "gradio",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/gradio.svg"
+    },
+    {
+      "@id": "icon:greptile",
+      "@type": "Icon",
+      "name": "greptile",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/greptile.svg"
+    },
+    {
+      "@id": "icon:grok",
+      "@type": "Icon",
+      "name": "grok",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/grok.svg"
+    },
+    {
+      "@id": "icon:groq",
+      "@type": "Icon",
+      "name": "groq",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/groq.svg"
+    },
+    {
+      "@id": "icon:hailuo",
+      "@type": "Icon",
+      "name": "hailuo",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/hailuo.svg"
+    },
+    {
+      "@id": "icon:haiper",
+      "@type": "Icon",
+      "name": "haiper",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/haiper.svg"
+    },
+    {
+      "@id": "icon:hedra",
+      "@type": "Icon",
+      "name": "hedra",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/hedra.svg"
+    },
+    {
+      "@id": "icon:hermesagent",
+      "@type": "Icon",
+      "name": "hermesagent",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/hermesagent.svg"
+    },
+    {
+      "@id": "icon:higress",
+      "@type": "Icon",
+      "name": "higress",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/higress.svg"
+    },
+    {
+      "@id": "icon:huawei",
+      "@type": "Icon",
+      "name": "huawei",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/huawei.svg"
+    },
+    {
+      "@id": "icon:huaweicloud",
+      "@type": "Icon",
+      "name": "huaweicloud",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/huaweicloud.svg"
+    },
+    {
+      "@id": "icon:huggingface",
+      "@type": "Icon",
+      "name": "huggingface",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/huggingface.svg"
+    },
+    {
+      "@id": "icon:hunyuan",
+      "@type": "Icon",
+      "name": "hunyuan",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/hunyuan.svg"
+    },
+    {
+      "@id": "icon:hyperbolic",
+      "@type": "Icon",
+      "name": "hyperbolic",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/hyperbolic.svg"
+    },
+    {
+      "@id": "icon:ibm",
+      "@type": "Icon",
+      "name": "ibm",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/ibm.svg"
+    },
+    {
+      "@id": "icon:ideogram",
+      "@type": "Icon",
+      "name": "ideogram",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/ideogram.svg"
+    },
+    {
+      "@id": "icon:iflytekcloud",
+      "@type": "Icon",
+      "name": "iflytekcloud",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/iflytekcloud.svg"
+    },
+    {
+      "@id": "icon:inception",
+      "@type": "Icon",
+      "name": "inception",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/inception.svg"
+    },
+    {
+      "@id": "icon:inference",
+      "@type": "Icon",
+      "name": "inference",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/inference.svg"
+    },
+    {
+      "@id": "icon:infermatic",
+      "@type": "Icon",
+      "name": "infermatic",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/infermatic.svg"
+    },
+    {
+      "@id": "icon:infinigence",
+      "@type": "Icon",
+      "name": "infinigence",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/infinigence.svg"
+    },
+    {
+      "@id": "icon:inflection",
+      "@type": "Icon",
+      "name": "inflection",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/inflection.svg"
+    },
+    {
+      "@id": "icon:internlm",
+      "@type": "Icon",
+      "name": "internlm",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/internlm.svg"
+    },
+    {
+      "@id": "icon:jimeng",
+      "@type": "Icon",
+      "name": "jimeng",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/jimeng.svg"
+    },
+    {
+      "@id": "icon:jina",
+      "@type": "Icon",
+      "name": "jina",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/jina.svg"
+    },
+    {
+      "@id": "icon:junie",
+      "@type": "Icon",
+      "name": "junie",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/junie.svg"
+    },
+    {
+      "@id": "icon:kafka",
+      "@type": "Icon",
+      "name": "kafka",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/kafka.svg"
+    },
+    {
+      "@id": "icon:kilocode",
+      "@type": "Icon",
+      "name": "kilocode",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/kilocode.svg"
+    },
+    {
+      "@id": "icon:kimi",
+      "@type": "Icon",
+      "name": "kimi",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/kimi.svg"
+    },
+    {
+      "@id": "icon:kiro",
+      "@type": "Icon",
+      "name": "kiro",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/kiro.svg"
+    },
+    {
+      "@id": "icon:kling",
+      "@type": "Icon",
+      "name": "kling",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/kling.svg"
+    },
+    {
+      "@id": "icon:kluster",
+      "@type": "Icon",
+      "name": "kluster",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/kluster.svg"
+    },
+    {
+      "@id": "icon:kolors",
+      "@type": "Icon",
+      "name": "kolors",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/kolors.svg"
+    },
+    {
+      "@id": "icon:krea",
+      "@type": "Icon",
+      "name": "krea",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/krea.svg"
+    },
+    {
+      "@id": "icon:kwaikat",
+      "@type": "Icon",
+      "name": "kwaikat",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/kwaikat.svg"
+    },
+    {
+      "@id": "icon:kwaikat-text",
+      "@type": "Icon",
+      "name": "kwaikat-text",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/kwaikat-text.svg"
+    },
+    {
+      "@id": "icon:kwaipilot",
+      "@type": "Icon",
+      "name": "kwaipilot",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/kwaipilot.svg"
+    },
+    {
+      "@id": "icon:lambda",
+      "@type": "Icon",
+      "name": "lambda",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/lambda.svg"
+    },
+    {
+      "@id": "icon:langchain",
+      "@type": "Icon",
+      "name": "langchain",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/langchain.svg"
+    },
+    {
+      "@id": "icon:langfuse",
+      "@type": "Icon",
+      "name": "langfuse",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/langfuse.svg"
+    },
+    {
+      "@id": "icon:langgraph",
+      "@type": "Icon",
+      "name": "langgraph",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/langgraph.svg"
+    },
+    {
+      "@id": "icon:langsmith",
+      "@type": "Icon",
+      "name": "langsmith",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/langsmith.svg"
+    },
+    {
+      "@id": "icon:leptonai",
+      "@type": "Icon",
+      "name": "leptonai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/leptonai.svg"
+    },
+    {
+      "@id": "icon:lg",
+      "@type": "Icon",
+      "name": "lg",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/lg.svg"
+    },
+    {
+      "@id": "icon:lightricks",
+      "@type": "Icon",
+      "name": "lightricks",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/lightricks.svg"
+    },
+    {
+      "@id": "icon:liquid",
+      "@type": "Icon",
+      "name": "liquid",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/liquid.svg"
+    },
+    {
+      "@id": "icon:livekit",
+      "@type": "Icon",
+      "name": "livekit",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/livekit.svg"
+    },
+    {
+      "@id": "icon:llamaindex",
+      "@type": "Icon",
+      "name": "llamaindex",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/llamaindex.svg"
+    },
+    {
+      "@id": "icon:llava",
+      "@type": "Icon",
+      "name": "llava",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/llava.svg"
+    },
+    {
+      "@id": "icon:llmapi",
+      "@type": "Icon",
+      "name": "llmapi",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/llmapi.svg"
+    },
+    {
+      "@id": "icon:lmstudio",
+      "@type": "Icon",
+      "name": "lmstudio",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/lmstudio.svg"
+    },
+    {
+      "@id": "icon:lobehub",
+      "@type": "Icon",
+      "name": "lobehub",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/lobehub.svg"
+    },
+    {
+      "@id": "icon:longcat",
+      "@type": "Icon",
+      "name": "longcat",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/longcat.svg"
+    },
+    {
+      "@id": "icon:lovable",
+      "@type": "Icon",
+      "name": "lovable",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/lovable.svg"
+    },
+    {
+      "@id": "icon:lovart",
+      "@type": "Icon",
+      "name": "lovart",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/lovart.svg"
+    },
+    {
+      "@id": "icon:luma",
+      "@type": "Icon",
+      "name": "luma",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/luma.svg"
+    },
+    {
+      "@id": "icon:magic",
+      "@type": "Icon",
+      "name": "magic",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/magic.svg"
+    },
+    {
+      "@id": "icon:make",
+      "@type": "Icon",
+      "name": "make",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/make.svg"
+    },
+    {
+      "@id": "icon:manus",
+      "@type": "Icon",
+      "name": "manus",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/manus.svg"
+    },
+    {
+      "@id": "icon:mariadb",
+      "@type": "Icon",
+      "name": "mariadb",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/mariadb.svg"
+    },
+    {
+      "@id": "icon:mastra",
+      "@type": "Icon",
+      "name": "mastra",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/mastra.svg"
+    },
+    {
+      "@id": "icon:mcp",
+      "@type": "Icon",
+      "name": "mcp",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/mcp.svg"
+    },
+    {
+      "@id": "icon:mcpso",
+      "@type": "Icon",
+      "name": "mcpso",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/mcpso.svg"
+    },
+    {
+      "@id": "icon:menlo",
+      "@type": "Icon",
+      "name": "menlo",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/menlo.svg"
+    },
+    {
+      "@id": "icon:meshy",
+      "@type": "Icon",
+      "name": "meshy",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/meshy.svg"
+    },
+    {
+      "@id": "icon:meta",
+      "@type": "Icon",
+      "name": "meta",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/meta.svg"
+    },
+    {
+      "@id": "icon:metaai",
+      "@type": "Icon",
+      "name": "metaai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/metaai.svg"
+    },
+    {
+      "@id": "icon:metagpt",
+      "@type": "Icon",
+      "name": "metagpt",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/metagpt.svg"
+    },
+    {
+      "@id": "icon:microsoft",
+      "@type": "Icon",
+      "name": "microsoft",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/microsoft.svg"
+    },
+    {
+      "@id": "icon:midjourney",
+      "@type": "Icon",
+      "name": "midjourney",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/midjourney.svg"
+    },
+    {
+      "@id": "icon:milvus",
+      "@type": "Icon",
+      "name": "milvus",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/milvus.svg"
+    },
+    {
+      "@id": "icon:minimax",
+      "@type": "Icon",
+      "name": "minimax",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/minimax.svg"
+    },
+    {
+      "@id": "icon:mistral",
+      "@type": "Icon",
+      "name": "mistral",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/mistral.svg"
+    },
+    {
+      "@id": "icon:modelscope",
+      "@type": "Icon",
+      "name": "modelscope",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/modelscope.svg"
+    },
+    {
+      "@id": "icon:mongodb",
+      "@type": "Icon",
+      "name": "mongodb",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/mongodb.svg"
+    },
+    {
+      "@id": "icon:monica",
+      "@type": "Icon",
+      "name": "monica",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/monica.svg"
+    },
+    {
+      "@id": "icon:moonshot",
+      "@type": "Icon",
+      "name": "moonshot",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/moonshot.svg"
+    },
+    {
+      "@id": "icon:morph",
+      "@type": "Icon",
+      "name": "morph",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/morph.svg"
+    },
+    {
+      "@id": "icon:moxt",
+      "@type": "Icon",
+      "name": "moxt",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/moxt.svg"
+    },
+    {
+      "@id": "icon:myshell",
+      "@type": "Icon",
+      "name": "myshell",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/myshell.svg"
+    },
+    {
+      "@id": "icon:mysql",
+      "@type": "Icon",
+      "name": "mysql",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/mysql.svg"
+    },
+    {
+      "@id": "icon:n8n",
+      "@type": "Icon",
+      "name": "n8n",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/n8n.svg"
+    },
+    {
+      "@id": "icon:nanobanana",
+      "@type": "Icon",
+      "name": "nanobanana",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/nanobanana.svg"
+    },
+    {
+      "@id": "icon:nebius",
+      "@type": "Icon",
+      "name": "nebius",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/nebius.svg"
+    },
+    {
+      "@id": "icon:neo4j",
+      "@type": "Icon",
+      "name": "neo4j",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/neo4j.svg"
+    },
+    {
+      "@id": "icon:newapi",
+      "@type": "Icon",
+      "name": "newapi",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/newapi.svg"
+    },
+    {
+      "@id": "icon:notebooklm",
+      "@type": "Icon",
+      "name": "notebooklm",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/notebooklm.svg"
+    },
+    {
+      "@id": "icon:notion",
+      "@type": "Icon",
+      "name": "notion",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/notion.svg"
+    },
+    {
+      "@id": "icon:nousresearch",
+      "@type": "Icon",
+      "name": "nousresearch",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/nousresearch.svg"
+    },
+    {
+      "@id": "icon:nova",
+      "@type": "Icon",
+      "name": "nova",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/nova.svg"
+    },
+    {
+      "@id": "icon:novelai",
+      "@type": "Icon",
+      "name": "novelai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/novelai.svg"
+    },
+    {
+      "@id": "icon:novita",
+      "@type": "Icon",
+      "name": "novita",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/novita.svg"
+    },
+    {
+      "@id": "icon:nplcloud",
+      "@type": "Icon",
+      "name": "nplcloud",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/nplcloud.svg"
+    },
+    {
+      "@id": "icon:nvidia",
+      "@type": "Icon",
+      "name": "nvidia",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/nvidia.svg"
+    },
+    {
+      "@id": "icon:obsidian",
+      "@type": "Icon",
+      "name": "obsidian",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/obsidian.svg"
+    },
+    {
+      "@id": "icon:ollama",
+      "@type": "Icon",
+      "name": "ollama",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/ollama.svg"
+    },
+    {
+      "@id": "icon:openai",
+      "@type": "Icon",
+      "name": "openai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/openai.svg"
+    },
+    {
+      "@id": "icon:openchat",
+      "@type": "Icon",
+      "name": "openchat",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/openchat.svg"
+    },
+    {
+      "@id": "icon:openclaw",
+      "@type": "Icon",
+      "name": "openclaw",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/openclaw.svg"
+    },
+    {
+      "@id": "icon:opencode",
+      "@type": "Icon",
+      "name": "opencode",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/opencode.svg"
+    },
+    {
+      "@id": "icon:openhands",
+      "@type": "Icon",
+      "name": "openhands",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/openhands.svg"
+    },
+    {
+      "@id": "icon:openhuman",
+      "@type": "Icon",
+      "name": "openhuman",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/openhuman.svg"
+    },
+    {
+      "@id": "icon:openrouter",
+      "@type": "Icon",
+      "name": "openrouter",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/openrouter.svg"
+    },
+    {
+      "@id": "icon:openwebui",
+      "@type": "Icon",
+      "name": "openwebui",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/openwebui.svg"
+    },
+    {
+      "@id": "icon:palm",
+      "@type": "Icon",
+      "name": "palm",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/palm.svg"
+    },
+    {
+      "@id": "icon:parasail",
+      "@type": "Icon",
+      "name": "parasail",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/parasail.svg"
+    },
+    {
+      "@id": "icon:perplexity",
+      "@type": "Icon",
+      "name": "perplexity",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/perplexity.svg"
+    },
+    {
+      "@id": "icon:phidata",
+      "@type": "Icon",
+      "name": "phidata",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/phidata.svg"
+    },
+    {
+      "@id": "icon:phind",
+      "@type": "Icon",
+      "name": "phind",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/phind.svg"
+    },
+    {
+      "@id": "icon:pika",
+      "@type": "Icon",
+      "name": "pika",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/pika.svg"
+    },
+    {
+      "@id": "icon:pixverse",
+      "@type": "Icon",
+      "name": "pixverse",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/pixverse.svg"
+    },
+    {
+      "@id": "icon:player2",
+      "@type": "Icon",
+      "name": "player2",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/player2.svg"
+    },
+    {
+      "@id": "icon:poe",
+      "@type": "Icon",
+      "name": "poe",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/poe.svg"
+    },
+    {
+      "@id": "icon:pollinations",
+      "@type": "Icon",
+      "name": "pollinations",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/pollinations.svg"
+    },
+    {
+      "@id": "icon:postgresql",
+      "@type": "Icon",
+      "name": "postgresql",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/postgresql.svg"
+    },
+    {
+      "@id": "icon:ppio",
+      "@type": "Icon",
+      "name": "ppio",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/ppio.svg"
+    },
+    {
+      "@id": "icon:prunaai",
+      "@type": "Icon",
+      "name": "prunaai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/prunaai.svg"
+    },
+    {
+      "@id": "icon:pydanticai",
+      "@type": "Icon",
+      "name": "pydanticai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/pydanticai.svg"
+    },
+    {
+      "@id": "icon:qdrant",
+      "@type": "Icon",
+      "name": "qdrant",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/qdrant.svg"
+    },
+    {
+      "@id": "icon:qingyan",
+      "@type": "Icon",
+      "name": "qingyan",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/qingyan.svg"
+    },
+    {
+      "@id": "icon:qiniu",
+      "@type": "Icon",
+      "name": "qiniu",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/qiniu.svg"
+    },
+    {
+      "@id": "icon:qoder",
+      "@type": "Icon",
+      "name": "qoder",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/qoder.svg"
+    },
+    {
+      "@id": "icon:qwen",
+      "@type": "Icon",
+      "name": "qwen",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/qwen.svg"
+    },
+    {
+      "@id": "icon:railway",
+      "@type": "Icon",
+      "name": "railway",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/railway.svg"
+    },
+    {
+      "@id": "icon:recraft",
+      "@type": "Icon",
+      "name": "recraft",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/recraft.svg"
+    },
+    {
+      "@id": "icon:redis",
+      "@type": "Icon",
+      "name": "redis",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/redis.svg"
+    },
+    {
+      "@id": "icon:relace",
+      "@type": "Icon",
+      "name": "relace",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/relace.svg"
+    },
+    {
+      "@id": "icon:replicate",
+      "@type": "Icon",
+      "name": "replicate",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/replicate.svg"
+    },
+    {
+      "@id": "icon:replit",
+      "@type": "Icon",
+      "name": "replit",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/replit.svg"
+    },
+    {
+      "@id": "icon:reve",
+      "@type": "Icon",
+      "name": "reve",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/reve.svg"
+    },
+    {
+      "@id": "icon:roocode",
+      "@type": "Icon",
+      "name": "roocode",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/roocode.svg"
+    },
+    {
+      "@id": "icon:rsshub",
+      "@type": "Icon",
+      "name": "rsshub",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/rsshub.svg"
+    },
+    {
+      "@id": "icon:runway",
+      "@type": "Icon",
+      "name": "runway",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/runway.svg"
+    },
+    {
+      "@id": "icon:rwkv",
+      "@type": "Icon",
+      "name": "rwkv",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/rwkv.svg"
+    },
+    {
+      "@id": "icon:sambanova",
+      "@type": "Icon",
+      "name": "sambanova",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/sambanova.svg"
+    },
+    {
+      "@id": "icon:search1api",
+      "@type": "Icon",
+      "name": "search1api",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/search1api.svg"
+    },
+    {
+      "@id": "icon:searchapi",
+      "@type": "Icon",
+      "name": "searchapi",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/searchapi.svg"
+    },
+    {
+      "@id": "icon:sensenova",
+      "@type": "Icon",
+      "name": "sensenova",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/sensenova.svg"
+    },
+    {
+      "@id": "icon:siliconcloud",
+      "@type": "Icon",
+      "name": "siliconcloud",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/siliconcloud.svg"
+    },
+    {
+      "@id": "icon:sillytavern",
+      "@type": "Icon",
+      "name": "sillytavern",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/sillytavern.svg"
+    },
+    {
+      "@id": "icon:skywork",
+      "@type": "Icon",
+      "name": "skywork",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/skywork.svg"
+    },
+    {
+      "@id": "icon:slock",
+      "@type": "Icon",
+      "name": "slock",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/slock.svg"
+    },
+    {
+      "@id": "icon:smithery",
+      "@type": "Icon",
+      "name": "smithery",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/smithery.svg"
+    },
+    {
+      "@id": "icon:snowflake",
+      "@type": "Icon",
+      "name": "snowflake",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/snowflake.svg"
+    },
+    {
+      "@id": "icon:sophnet",
+      "@type": "Icon",
+      "name": "sophnet",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/sophnet.svg"
+    },
+    {
+      "@id": "icon:sora",
+      "@type": "Icon",
+      "name": "sora",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/sora.svg"
+    },
+    {
+      "@id": "icon:spark",
+      "@type": "Icon",
+      "name": "spark",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/spark.svg"
+    },
+    {
+      "@id": "icon:speedai",
+      "@type": "Icon",
+      "name": "speedai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/speedai.svg"
+    },
+    {
+      "@id": "icon:sqlite",
+      "@type": "Icon",
+      "name": "sqlite",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/sqlite.svg"
+    },
+    {
+      "@id": "icon:stability",
+      "@type": "Icon",
+      "name": "stability",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/stability.svg"
+    },
+    {
+      "@id": "icon:statecloud",
+      "@type": "Icon",
+      "name": "statecloud",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/statecloud.svg"
+    },
+    {
+      "@id": "icon:stepfun",
+      "@type": "Icon",
+      "name": "stepfun",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/stepfun.svg"
+    },
+    {
+      "@id": "icon:straico",
+      "@type": "Icon",
+      "name": "straico",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/straico.svg"
+    },
+    {
+      "@id": "icon:streamlake",
+      "@type": "Icon",
+      "name": "streamlake",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/streamlake.svg"
+    },
+    {
+      "@id": "icon:submodel",
+      "@type": "Icon",
+      "name": "submodel",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/submodel.svg"
+    },
+    {
+      "@id": "icon:suno",
+      "@type": "Icon",
+      "name": "suno",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/suno.svg"
+    },
+    {
+      "@id": "icon:supabase",
+      "@type": "Icon",
+      "name": "supabase",
+      "provider": "simple-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/supabase.svg"
+    },
+    {
+      "@id": "icon:sync",
+      "@type": "Icon",
+      "name": "sync",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/sync.svg"
+    },
+    {
+      "@id": "icon:targon",
+      "@type": "Icon",
+      "name": "targon",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/targon.svg"
+    },
+    {
+      "@id": "icon:tavily",
+      "@type": "Icon",
+      "name": "tavily",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/tavily.svg"
+    },
+    {
+      "@id": "icon:tencent",
+      "@type": "Icon",
+      "name": "tencent",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/tencent.svg"
+    },
+    {
+      "@id": "icon:tencentcloud",
+      "@type": "Icon",
+      "name": "tencentcloud",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/tencentcloud.svg"
+    },
+    {
+      "@id": "icon:tiangong",
+      "@type": "Icon",
+      "name": "tiangong",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/tiangong.svg"
+    },
+    {
+      "@id": "icon:tii",
+      "@type": "Icon",
+      "name": "tii",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/tii.svg"
+    },
+    {
+      "@id": "icon:together",
+      "@type": "Icon",
+      "name": "together",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/together.svg"
+    },
+    {
+      "@id": "icon:topazlabs",
+      "@type": "Icon",
+      "name": "topazlabs",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/topazlabs.svg"
+    },
+    {
+      "@id": "icon:trae",
+      "@type": "Icon",
+      "name": "trae",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/trae.svg"
+    },
+    {
+      "@id": "icon:tripo",
+      "@type": "Icon",
+      "name": "tripo",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/tripo.svg"
+    },
+    {
+      "@id": "icon:turix",
+      "@type": "Icon",
+      "name": "turix",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/turix.svg"
+    },
+    {
+      "@id": "icon:udio",
+      "@type": "Icon",
+      "name": "udio",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/udio.svg"
+    },
+    {
+      "@id": "icon:unstructured",
+      "@type": "Icon",
+      "name": "unstructured",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/unstructured.svg"
+    },
+    {
+      "@id": "icon:upstage",
+      "@type": "Icon",
+      "name": "upstage",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/upstage.svg"
+    },
+    {
+      "@id": "icon:v0",
+      "@type": "Icon",
+      "name": "v0",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/v0.svg"
+    },
+    {
+      "@id": "icon:vectorizerai",
+      "@type": "Icon",
+      "name": "vectorizerai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/vectorizerai.svg"
+    },
+    {
+      "@id": "icon:venice",
+      "@type": "Icon",
+      "name": "venice",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/venice.svg"
+    },
+    {
+      "@id": "icon:vercel",
+      "@type": "Icon",
+      "name": "vercel",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/vercel.svg"
+    },
+    {
+      "@id": "icon:vertexai",
+      "@type": "Icon",
+      "name": "vertexai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/vertexai.svg"
+    },
+    {
+      "@id": "icon:vidu",
+      "@type": "Icon",
+      "name": "vidu",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/vidu.svg"
+    },
+    {
+      "@id": "icon:viggle",
+      "@type": "Icon",
+      "name": "viggle",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/viggle.svg"
+    },
+    {
+      "@id": "icon:vllm",
+      "@type": "Icon",
+      "name": "vllm",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/vllm.svg"
+    },
+    {
+      "@id": "icon:volcengine",
+      "@type": "Icon",
+      "name": "volcengine",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/volcengine.svg"
+    },
+    {
+      "@id": "icon:voyage",
+      "@type": "Icon",
+      "name": "voyage",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/voyage.svg"
+    },
+    {
+      "@id": "icon:wenxin",
+      "@type": "Icon",
+      "name": "wenxin",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/wenxin.svg"
+    },
+    {
+      "@id": "icon:windsurf",
+      "@type": "Icon",
+      "name": "windsurf",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/windsurf.svg"
+    },
+    {
+      "@id": "icon:workersai",
+      "@type": "Icon",
+      "name": "workersai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/workersai.svg"
+    },
+    {
+      "@id": "icon:worldrouter",
+      "@type": "Icon",
+      "name": "worldrouter",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/worldrouter.svg"
+    },
+    {
+      "@id": "icon:xai",
+      "@type": "Icon",
+      "name": "xai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/xai.svg"
+    },
+    {
+      "@id": "icon:xiaomimimo",
+      "@type": "Icon",
+      "name": "xiaomimimo",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/xiaomimimo.svg"
+    },
+    {
+      "@id": "icon:xinference",
+      "@type": "Icon",
+      "name": "xinference",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/xinference.svg"
+    },
+    {
+      "@id": "icon:xpay",
+      "@type": "Icon",
+      "name": "xpay",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/xpay.svg"
+    },
+    {
+      "@id": "icon:xuanyuan",
+      "@type": "Icon",
+      "name": "xuanyuan",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/xuanyuan.svg"
+    },
+    {
+      "@id": "icon:yandex",
+      "@type": "Icon",
+      "name": "yandex",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/yandex.svg"
+    },
+    {
+      "@id": "icon:yi",
+      "@type": "Icon",
+      "name": "yi",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/yi.svg"
+    },
+    {
+      "@id": "icon:youmind",
+      "@type": "Icon",
+      "name": "youmind",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/youmind.svg"
+    },
+    {
+      "@id": "icon:yuanbao",
+      "@type": "Icon",
+      "name": "yuanbao",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/yuanbao.svg"
+    },
+    {
+      "@id": "icon:zai",
+      "@type": "Icon",
+      "name": "zai",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/zai.svg"
+    },
+    {
+      "@id": "icon:zapier",
+      "@type": "Icon",
+      "name": "zapier",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/zapier.svg"
+    },
+    {
+      "@id": "icon:zeabur",
+      "@type": "Icon",
+      "name": "zeabur",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/zeabur.svg"
+    },
+    {
+      "@id": "icon:zencoder",
+      "@type": "Icon",
+      "name": "zencoder",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/zencoder.svg"
+    },
+    {
+      "@id": "icon:zenmux",
+      "@type": "Icon",
+      "name": "zenmux",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/zenmux.svg"
+    },
+    {
+      "@id": "icon:zeroone",
+      "@type": "Icon",
+      "name": "zeroone",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/zeroone.svg"
+    },
+    {
+      "@id": "icon:zhipu",
+      "@type": "Icon",
+      "name": "zhipu",
+      "provider": "lobe-icons",
+      "localPath": "03_AI与数据图标_SVG/svg/zhipu.svg"
+    }
+  ]
+}

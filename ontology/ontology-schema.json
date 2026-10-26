@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Draw.io ontology search record",
+  "oneOf": [
+    {
+      "required": [
+        "id",
+        "category",
+        "script"
+      ]
+    },
+    {
+      "required": [
+        "id",
+        "title",
+        "library",
+        "style"
+      ]
+    },
+    {
+      "required": [
+        "id",
+        "name",
+        "local_svg"
+      ]
+    },
+    {
+      "required": [
+        "id",
+        "name",
+        "shape_count"
+      ]
+    }
+  ]
+}
